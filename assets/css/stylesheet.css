@@ -1,0 +1,39 @@
+/*-----------------------------------Heading----------------------------*/
+.navbar-brand {
+    padding-left: 10px;
+}
+.navbar-nav {
+    margin-left: auto
+}
+.nav-item {
+    padding-right: 10px;
+}
+.navbar-nav .nav-link {
+    padding-left: 10px;
+    text-align: left;
+}
+.navbar-toggler {
+    padding-right: 10px;
+    border: none;
+}
+.dropdown-menu {
+    background-color: rgba(26, 25, 25, 0.815);
+}
+.dropdown-item {
+    color: whitesmoke;
+}
+/*-----------------------------------Section----------------------------*/
+.cover-text {
+    color: red;
+    background-color: rgba(241, 109, 107, .7);
+}
+.hero-image {
+    background: url("../images/homepage-image.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    background-size: cover;
+}
+/*-----------------------------------Footer----------------------------*/
