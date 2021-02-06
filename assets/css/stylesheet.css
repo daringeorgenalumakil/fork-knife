@@ -1,39 +1,173 @@
-/*-----------------------------------Heading----------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: "Roboto",sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+/*-----------------------------------navbar----------------------------*/
+.navbar-dark {
+    background-color: transparent;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 15px;
+    letter-spacing: 4px;
+    font-weight: bold;
+}
+
 .navbar-brand {
-    padding-left: 10px;
+    font-weight: bold;
+    margin-left: 15px;
+    letter-spacing: 4px;
+    font-size: 25px;
 }
-.navbar-nav {
-    margin-left: auto
+
+.navbar .navbar-toggler {
+    margin-left: 15px;
+    border: 0;
 }
-.nav-item {
-    padding-right: 10px;
-}
-.navbar-nav .nav-link {
-    padding-left: 10px;
-    text-align: left;
-}
-.navbar-toggler {
-    padding-right: 10px;
-    border: none;
-}
+
 .dropdown-menu {
-    background-color: rgba(26, 25, 25, 0.815);
+    background-color: black;
 }
+
 .dropdown-item {
-    color: whitesmoke;
+    color: white;
 }
+
+/*-----------------------------------Jumboton----------------------------*/
+.jumbotron-header {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
 /*-----------------------------------Section----------------------------*/
-.cover-text {
-    color: red;
-    background-color: rgba(241, 109, 107, .7);
-}
-.hero-image {
-    background: url("../images/homepage-image.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 50%;
-    position: absolute;
+.callout-container {
+    margin-bottom: 50px;
+    
+    height: 50vh;
+    background: url(/assets/images/homepage-image.jpg) no-repeat right center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.page-header {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.about-container {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.about p {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.gallery {
+    margin-bottom: 50px;
+}
+
+.gallery-container {
+   margin-top: 20px;
+   margin-bottom: 50px;
+   color: white;
+}
+
+.carousel-item {
+    height: 20rem;
+    background-color: black;
+}
+
+.carousel-control-prev-icon {
+    background-color: black;
+}
+
+.carousel-control-next-icon {
+    background-color: black;
+}
+
+.container-wrapper {
+    background-color: #d8973c;
+}
+
+.reviews-container {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    color: white;
+    
+}
+
+.reviews {
+    text-align: center;
+    margin: 30px;
+}
+
+.btn-feedback {
+    margin-bottom: 20px;
+    background-color: #00a896;
+    border: #00a896;
 }
 /*-----------------------------------Footer----------------------------*/
+.footer-container {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer p{
+    font-size: 10px;
+}
+
+.footer-heading {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.footer-heading-address {
+    font-size: 27px;
+    letter-spacing: 1px;
+}
+
+.footer-links {
+    margin-top: 20px;
+}
+
+.footer-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 20px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.footer-links li a i:hover {
+    color: #e84610;
+}
