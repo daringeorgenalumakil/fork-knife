@@ -13,7 +13,7 @@
 <body>
     <!-- Navigation -->
     <nav class="navbar navbar-expand-sm navbar-dark">
-        <div class="container-fluid">
+        <div class="container-fluid navbar-items">
             <a href="index.html" class="navbar-brand"> Fork & Knife </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarmenu"
                 aria-controls="navbarmenu" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,19 +46,50 @@
     <!-- /navigation -->
     <!-- Callout -->
     <div class="container-fluid callout-container-contact">
-        <div class="opaque-overlay">
-            &nbsp;
-        </div>
         <div class="row">
             <div class="col-12">
                 <section class="callout jumbotron text-center">
-                    <h1 class="jumbotron-header text-uppercase"> Contact </h1>
+                    <h1 class="container-fluid jumbotron-header text-uppercase contact-jumbotron"> Contact </h1>
                     <button class="btn btn-success"> Book a Table </button>
                 </section>
             </div>
         </div>
     </div>
     <!-- /callout -->
+    <!--Form-->
+    <div class="conatiner form-container">
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <form class="form-container">
+                    <div class="form-group">
+                        <label for="Firstname">First Name</label>
+                        <input type="name" class="form-control" id="Firstname" aria-describedby="firstname"
+                            placeholder="First Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="Lastname">Last Name</label>
+                        <input type="name" class="form-control" id="Lastname" aria-describedby="lastname"
+                            placeholder="Last Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="Email">Email address</label>
+                        <input type="email" class="form-control" id="Email" aria-describedby="emailHelp"
+                            placeholder="Enter email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="Phone">Phone</label>
+                        <input type="phone" class="form-control" id="Phone" placeholder="Phone Number" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Send us Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Please type here" rows="5"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-success"> Send us an Email </button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- /form-->
     <!-- Footer-->
     <div class="container footer-container">
         <section class="footer">

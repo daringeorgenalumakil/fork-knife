@@ -2,8 +2,6 @@
 
 body {
     font-family: "Roboto",sans-serif;
-    margin: 0;
-    padding: 0;
     background-color: black;
 }
 
@@ -13,11 +11,11 @@ body {
 }
 
 .navbar-items {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .navbar-nav .nav-item {
-    margin-right: 15px;
+    margin-right: 5px;
     letter-spacing: 4px;
     font-weight: bold;
 }
@@ -44,17 +42,26 @@ body {
 
 /*-----------------------------------Jumboton----------------------------*/
 .jumbotron-header {
+    color: #ffbd00;
+    font-weight: bold;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+    background-color: black;
+}
+
+.contact-jumbotron {
     color: white;
     font-weight: bold;
     margin-bottom: 30px;
+    letter-spacing: 2px;
+    background-color: transparent;
 }
-
 /*-----------------------------------Section----------------------------*/
 .callout-container {
     margin-bottom: 20px;
     
     height: 50vh;
-    background: url(/assets/images/homepage.jpg) no-repeat right center fixed; 
+    background: url(/assets/images/homepageimgedit.jpg) no-repeat right center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -95,13 +102,16 @@ body {
     align-items: center;
     justify-content: center;
 
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
 }
 
 .callout-container-contact {
     margin-bottom: 20px;
     
     height: 50vh;
-    background: url(/assets/images/contact.jpg) no-repeat right center fixed; 
+    background: url(/assets/images/contactedit.jpg) no-repeat right center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -111,17 +121,9 @@ body {
     align-items: center;
     justify-content: center;
 
-    position: relative;
-
-}
-
-.opaque-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color:rgba(0, 0, 0, 0.5);
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
 }
 
 .page-header {
@@ -166,12 +168,12 @@ body {
 }
 
 .container-wrapper-about {
-    background-color: #a50104;
+    background-color: #d05353;
     margin-top: 50px;
 }
 
 .container-wrapper {
-    background-color: #a50104;
+    background-color: #d05353;
 }
 
 .reviews-container {
@@ -251,6 +253,17 @@ body {
 
 .btn-bottom {
     margin-bottom: 50px;
+}
+
+.form-container {
+    padding-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.form-container label {
+   color: white;
+   
 }
 /*-----------------------------------Footer----------------------------*/
 .footer-container {
