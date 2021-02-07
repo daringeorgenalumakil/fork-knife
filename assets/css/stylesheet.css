@@ -12,6 +12,10 @@ body {
     background-color: transparent;
 }
 
+.navbar-items {
+    margin-bottom: 10px;
+}
+
 .navbar-nav .nav-item {
     margin-right: 15px;
     letter-spacing: 4px;
@@ -20,7 +24,7 @@ body {
 
 .navbar-brand {
     font-weight: bold;
-    margin-left: 15px;
+    margin-left: 5px;
     letter-spacing: 4px;
     font-size: 25px;
 }
@@ -47,10 +51,41 @@ body {
 
 /*-----------------------------------Section----------------------------*/
 .callout-container {
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     
     height: 50vh;
-    background: url(/assets/images/homepage-image.jpg) no-repeat right center fixed; 
+    background: url(/assets/images/homepage.jpg) no-repeat right center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes hero-zoom {
+  
+  from {
+      transform: scale(1);
+  }
+
+  to{
+      transform: scale(1.1);
+  }
+
+}
+
+.callout-container-offers {
+    margin-bottom: 20px;
+    
+    height: 50vh;
+    background: url(/assets/images/offers.jpg) no-repeat right center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -71,8 +106,8 @@ body {
 
 .about-container {
     margin-top: 20px;
-    margin-bottom: 50px;
-    color: white;
+    margin-bottom: 20px;
+    color: #f7fff7;
 }
 
 .about p {
@@ -86,7 +121,7 @@ body {
 
 .gallery-container {
    margin-top: 20px;
-   margin-bottom: 50px;
+   margin-bottom: 20px;
    color: white;
 }
 
@@ -103,14 +138,19 @@ body {
     background-color: black;
 }
 
+.container-wrapper-about {
+    background-color: #a50104;
+    margin-top: 50px;
+}
+
 .container-wrapper {
-    background-color: #d8973c;
+    background-color: #a50104;
 }
 
 .reviews-container {
     margin-top: 20px;
-    margin-bottom: 50px;
-    color: white;
+    margin-bottom: 20px;
+    color: #f7fff7;
     
 }
 
@@ -121,13 +161,74 @@ body {
 
 .btn-feedback {
     margin-bottom: 20px;
-    background-color: #00a896;
-    border: #00a896;
+}
+
+.lunch-offer-container {
+    margin-top: 20px;
+    color: white;
+    justify-content: center;
+    justify-items: center;
+}
+
+.lunch-offer-image {
+    width: 80%;
+    height: 80%;
+    background-color: black;
+    padding-left: 50px;
+    margin-top: 5px;
+}
+
+.img-thumbnail {
+    background-color: black;
+}
+
+.lunch-offer {
+    margin-top: 25px;
+    padding-left: 5px;
+}
+
+.lunch-offer p {
+    text-align: left;
+    font-size: 12px;
+}
+
+.pretheatre-offer-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    justify-content: center;
+    justify-items: center;
+}
+
+.pretheatre-offer-image {
+    width: 80%;
+    height: 80%;
+    background-color: black;
+    padding-left: 50px;
+    margin-top: 5px;
+}
+
+.img-thumbnail {
+    background-color: black;
+}
+
+.pretheatre-offer {
+    margin-top: 25px;
+    padding-left: 5px;
+}
+
+.pretheatre-offer p {
+    text-align: left;
+    font-size: 12px;
+}
+
+.btn-bottom {
+    margin-bottom: 50px;
 }
 /*-----------------------------------Footer----------------------------*/
 .footer-container {
     margin-top: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     color: white;
 }
 
@@ -154,6 +255,7 @@ body {
 }
 
 .footer-links li a i {
+    margin-top: 10px;
     width: 32px;
     height: 32px;
     padding: 12px 0;
