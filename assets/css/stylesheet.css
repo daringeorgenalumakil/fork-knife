@@ -97,6 +97,33 @@ body {
 
 }
 
+.callout-container-contact {
+    margin-bottom: 20px;
+    
+    height: 50vh;
+    background: url(/assets/images/contact.jpg) no-repeat right center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.5);
+}
+
 .page-header {
     margin-top: 20px;
     margin-bottom: 20px;
