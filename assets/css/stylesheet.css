@@ -42,14 +42,21 @@ body {
 
 /*-----------------------------------Jumboton----------------------------*/
 .jumbotron-header {
-    color: #ffbd00;
+    color: white;
     font-weight: bold;
     margin-bottom: 30px;
     letter-spacing: 2px;
-    background-color: black;
 }
 
 .contact-jumbotron {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+    background-color: transparent;
+}
+
+.jumbotron-offers {
     color: white;
     font-weight: bold;
     margin-bottom: 30px;
@@ -61,7 +68,7 @@ body {
     margin-bottom: 20px;
     
     height: 50vh;
-    background: url(/assets/images/homepageimgedit.jpg) no-repeat right center fixed; 
+    background: url(/assets/images/homepageimgedit1.jpg) no-repeat fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -92,7 +99,7 @@ body {
     margin-bottom: 20px;
     
     height: 50vh;
-    background: url(/assets/images/offers.jpg) no-repeat right center fixed; 
+    background: url(/assets/images/offers3edit.jpg) no-repeat fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -111,7 +118,7 @@ body {
     margin-bottom: 20px;
     
     height: 50vh;
-    background: url(/assets/images/contactedit.jpg) no-repeat right center fixed; 
+    background: url(/assets/images/contactedit.jpg) no-repeat fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -139,8 +146,14 @@ body {
     color: #f7fff7;
 }
 
+.location-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #f7fff7;
+}
+
 .about p {
-    text-align: center;
+    text-align: left;
     margin-bottom: 25px;
 }
 
@@ -257,13 +270,27 @@ body {
 
 .form-container {
     padding-left: 10px;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-bottom: 20px;
+    width: 100%;
+
 }
 
 .form-container label {
    color: white;
    
+}
+
+#textarea {
+    margin-bottom: 20px;
+}
+
+.btn-email {
+        font-weight: bold;
+    }
+
+.btn-menu {
+    margin-bottom: 10px;
 }
 /*-----------------------------------Footer----------------------------*/
 .footer-container {
@@ -312,4 +339,29 @@ body {
 
 .footer-links li a i:hover {
     color: #e84610;
+}
+/*-----------------------------------Media Queries----------------------------*/
+
+@media(min-width: 320px) {
+    .btn-email {
+        font-weight: bold;
+    }
+}
+
+@media(min-width: 768px) {
+    .form-container {
+        width: 80%;
+        margin-left: 10%;
+    }
+    .btn-email {
+        margin-left: 90px;
+        font-weight: bold;
+    }
+}
+
+@media(min-width: 992px) {
+    .btn-email {
+        margin-left: 37%;
+        font-weight: bold;
+    }
 }
