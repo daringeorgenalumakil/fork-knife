@@ -41,7 +41,7 @@ body {
     margin-bottom: 20px;
     
     height: 50vh;
-    background: url(../assets/images/homepageimgedit1.jpg) no-repeat fixed; 
+    background: url(../images/homepageimgedit1.jpg) no-repeat fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -73,7 +73,7 @@ body {
     margin-bottom: 20px;
     
     height: 50vh;
-    background: url(../assets/images/offers3edit.jpg) no-repeat fixed; 
+    background: url(../images/offers3edit.jpg) no-repeat fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -92,7 +92,7 @@ body {
     margin-bottom: 20px;
     
     height: 50vh;
-    background: url(../assets/images/contactedit.jpg) no-repeat fixed; 
+    background: url(../images/contactedit.jpg) no-repeat fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
