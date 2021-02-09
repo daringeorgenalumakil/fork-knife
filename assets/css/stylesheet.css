@@ -1,7 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
 
 body {
-    font-family: "Roboto",sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: "PT Serif",sans-serif;
     background-color: black;
 }
 
@@ -20,13 +23,6 @@ body {
     font-weight: bold;
 }
 
-.navbar-brand {
-    font-weight: bold;
-    margin-left: 5px;
-    letter-spacing: 4px;
-    font-size: 25px;
-}
-
 .navbar .navbar-toggler {
     margin-left: 15px;
     border: 0;
@@ -40,29 +36,6 @@ body {
     color: white;
 }
 
-/*-----------------------------------Jumboton----------------------------*/
-.jumbotron-header {
-    color: white;
-    font-weight: bold;
-    margin-bottom: 30px;
-    letter-spacing: 2px;
-}
-
-.contact-jumbotron {
-    color: white;
-    font-weight: bold;
-    margin-bottom: 30px;
-    letter-spacing: 2px;
-    background-color: transparent;
-}
-
-.jumbotron-offers {
-    color: white;
-    font-weight: bold;
-    margin-bottom: 30px;
-    letter-spacing: 2px;
-    background-color: transparent;
-}
 /*-----------------------------------Section----------------------------*/
 .callout-container {
     margin-bottom: 20px;
@@ -79,21 +52,22 @@ body {
     justify-content: center;
 
     animation-name: hero-zoom;
-    animation-duration: 5s;
+    animation-duration: 4s;
     animation-fill-mode: forwards;
 }
 
 @keyframes hero-zoom {
   
   from {
-      transform: scale(1);
+      transform: scale(0.9);
   }
 
   to{
-      transform: scale(1.1);
+      transform: scale(1);
   }
 
 }
+
 
 .callout-container-offers {
     margin-bottom: 20px;
@@ -110,7 +84,7 @@ body {
     justify-content: center;
 
     animation-name: hero-zoom;
-    animation-duration: 5s;
+    animation-duration: 4s;
     animation-fill-mode: forwards;
 }
 
@@ -129,7 +103,7 @@ body {
     justify-content: center;
 
     animation-name: hero-zoom;
-    animation-duration: 5s;
+    animation-duration: 4s;
     animation-fill-mode: forwards;
 }
 
@@ -137,7 +111,9 @@ body {
     margin-top: 20px;
     margin-bottom: 20px;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 35px;
+    color: white;
+    letter-spacing: 2px;
 }
 
 .about-container {
@@ -153,8 +129,9 @@ body {
 }
 
 .about p {
-    text-align: left;
+    text-align: justify;
     margin-bottom: 25px;
+    font-size: 16px;
 }
 
 .gallery {
@@ -181,12 +158,12 @@ body {
 }
 
 .container-wrapper-about {
-    background-color: #d05353;
+    background-color: #c33149;
     margin-top: 50px;
 }
 
 .container-wrapper {
-    background-color: #d05353;
+    background-color: #c33149;
 }
 
 .reviews-container {
@@ -200,6 +177,11 @@ body {
     text-align: center;
     margin: 30px;
 }
+
+.reviews i {
+    margin-bottom: 10px;
+}
+
 
 .btn-feedback {
     margin-bottom: 20px;
@@ -240,12 +222,13 @@ body {
     color: white;
     justify-content: center;
     justify-items: center;
+    background-color: #c33149;
 }
 
 .pretheatre-offer-image {
     width: 80%;
     height: 80%;
-    background-color: black;
+    background-color: #c33149;
     padding-left: 50px;
     margin-top: 5px;
 }
@@ -313,8 +296,9 @@ body {
 }
 
 .footer-heading-address {
-    font-size: 27px;
+    font-size: 30px;
     letter-spacing: 1px;
+    font-weight: bold;
 }
 
 .footer-links {
@@ -338,13 +322,87 @@ body {
 }
 
 .footer-links li a i:hover {
-    color: #e84610;
+    color: #c33149;
+}
+
+.alert-container .col-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.site-wide-alert {
+    padding: 5px 15px;
+}
+
+.alert-warning {
+    color: white;
+    background-color: #c33149;
+    text-align: center;
+}
+
+.map-wrapper {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.map-wrapper i {
+    margin-bottom: 10px;
+    margin-top: 20px;
 }
 /*-----------------------------------Media Queries----------------------------*/
 
 @media(min-width: 320px) {
     .btn-email {
         font-weight: bold;
+    }
+    .page-header {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    letter-spacing: 2px;
+    }
+    .jumboton-callout-header {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+    font-family: "Playfair Display", sans-serif;
+    }
+    .contact-jumbotron {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 30px;
+    padding-top: 50px;
+    letter-spacing: 2px;
+    background-color: transparent;
+    font-family: "Playfair Display", sans-serif;
+    }
+
+    .jumbotron-offers {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+    background-color: transparent;
+    font-family: "Playfair Display", sans-serif;
+    }
+    .navbar-brand {
+    font-weight: bold;
+    letter-spacing: 4px;
+    font-size: 20px;
+    }
+    .reviews h3 {
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    }
+    .reviews p {
+        font-size: 12px;
     }
 }
 
@@ -357,11 +415,69 @@ body {
         margin-left: 90px;
         font-weight: bold;
     }
+    .page-header {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    letter-spacing: 2px;
+    }
+    .jumboton-callout-header {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+    font-family: "Playfair Display", sans-serif;
+    font-size: 25px;
+    }
+    .contact-jumbotron {
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 30px;
+    padding-top: 50px;
+    letter-spacing: 2px;
+    background-color: transparent;
+    font-family: "Playfair Display", sans-serif;
+    }
+
+.jumbotron-offers {
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+    background-color: transparent;
+    font-family: "Playfair Display", sans-serif;
+    }
+    .navbar-brand {
+    font-weight: bold;
+    margin-left: 5px;
+    letter-spacing: 4px;
+    font-size: 25px;
+    }
+    .reviews h3 {
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    }
+    .reviews p {
+        font-size: 20px;
+    }
 }
 
 @media(min-width: 992px) {
     .btn-email {
         margin-left: 37%;
         font-weight: bold;
+    }
+    .jumboton-callout-header {
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+    font-family: "Playfair Display", sans-serif;
     }
 }
