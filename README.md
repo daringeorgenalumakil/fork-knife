@@ -38,6 +38,9 @@ In this case Fork & Knife is offering a mix of North Indian and South Indian dis
     * to be able to find who owns the Buisness and how to contact them, This will give me more confidence to book a table and also the restaurant.
     * to be able to view some photos of popular dishes.
 ## Structure
+I decided to separate the website into Four sections Home page, Menu page, (with 3 dropdown menu links) , Offers page and Contact page. 
+The navbar (fixed) and footer allow the user to easily find ways to get in touch and each page is to show a consistency throughout. 
+Each page is designed to provide practical information, with inspiring images and content enough to enable the user to know what the restaurant provides.
 ## Skeleton
 ## Design Choices
 # Features
