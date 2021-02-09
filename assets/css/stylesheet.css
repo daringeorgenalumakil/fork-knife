@@ -396,6 +396,9 @@ body {
     letter-spacing: 4px;
     font-size: 20px;
     }
+    .reviews {
+        margin: 20px;
+    }
     .reviews h3 {
     font-size: 18px;
     letter-spacing: 2px;
