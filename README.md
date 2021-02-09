@@ -5,44 +5,50 @@ This restaurant offers authentic Indian cuisine for couples, families and childr
 The main goal is to get the users interested & book a table with us.
 Fork & Knife is an educational project to serve as a a milestone project for the software development programe of Code Institue.
 # Table of Contents
-* Demo
-* UX
-    * Buisness Goals
-    * User Goals
-    * User Scenarios
-    * Structure
-    * Skeleton
-        * Wirefrmaes
-    * Design Choices
-* Features
-* Tecnologies Used
-* Testing
-* Deployment
-* Credits
-* Acknowledgement
-# UX
-## Buisness Goals
+* [Demo](#Demo)
+* [UX](#UX)
+    * [BuisnessGoals](##BuisnessGoals)
+    * [UserGoals](##UserGoals)
+    * [UserScenarios](##UserScenarios)
+    * [Structure](##Structure)
+    * [Skeleton](##Skeleton)
+        * [Wirefrmaes](*Wirefrmaes)
+    * [DesignChoices](##DesignChoices)
+* [Features](#Features)
+* [TecnologiesUsed](#TechnologiesUsed)
+* [Testing](#Testing)
+* [Deployment](#Deployment)
+* [Credits](#Credits)
+* [Acknowledgement](#Acknowledgement)
+# [Demo](*Demo)
+# [UX](*UX)
+## [BuisnessGoals](*BuisnessGoals) 
 * The main goal of any restaurant is to attaract customers by their unique style of cuisine.
-In this case Fork & Knife is offering a mix of North Indian and South Indian dishes.
+  In this case Fork & Knife is offering a mix of North Indian and South Indian dishes.
 * Other main goals are to attaract couples, families and childrens to book table with us.
 * Buisness is also responsible to promote unique style of menu which attracts all age groups.
-## User Goals
+## [UserGoals](*UserGoals)
 * Having a healthy menu that attaracts families with their childrens.
 * Having the ability to know before hand on what to order and the prices.
 * Having the options to conatact the restaurant staff if in any doubt.
-## User Scenarios
+## [UserScenarios](*UserScenarios)
 * As a User I need to:
     * to be able to navigate through the website comfortably and easily.
     * to be able to see through mobile first and pass it to my peers.
     * to easily understand the purpose of the page.
     * to be able to find who owns the Buisness and how to contact them, This will give me more confidence to book a table and also the restaurant.
     * to be able to view some photos of popular dishes.
-## Structure
+## [Structure](*Structure)
 I decided to separate the website into Four sections Home page, Menu page, (with 3 dropdown menu links) , Offers page and Contact page. 
 The navbar (fixed) and footer allow the user to easily find ways to get in touch and each page is to show a consistency throughout. 
 Each page is designed to provide practical information, with inspiring images and content enough to enable the user to know what the restaurant provides.
-## Skeleton
-## Design Choices
+## [Skeleton](*Skeleton)
+Here I have inlcuded the images for Wirefrmaes
+* [Wirefrmaes](*Wirefrmaes)
+    ![Home Page Phone](homepagephone.png)
+    ![Home Page Tablet](homepagetablet.png)
+    ![Home Page Web](homepagelaptop.jpg)
+## DesignChoices
 # Features
 # Technologies Used
 # Testing
