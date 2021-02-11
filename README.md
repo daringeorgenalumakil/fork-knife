@@ -7,15 +7,15 @@ Fork & Knife is an educational project to serve as a a milestone project for the
 # Table of Contents
 * [Demo](#Demo)
 * [UX](#UX)
-    * [BuisnessGoals](##BuisnessGoals)
-    * [User Goals](##User)
-    * [User Stories](##User)
+    * [Buisness Goals](##BuisnessGoals)
+    * [User Goals](##UserGoals)
+    * [User Stories](##UserStories)
     * [Structure](##Structure)
     * [Skeleton](##Skeleton)
         * [Wirefrmaes](*Wirefrmaes)
     * [Design Choices](##Design)
 * [Features](#Features)
-* [Tecnologies Used](#Technologies)
+* [Tecnologies Used](#TechnologiesUsed)
 * [Testing](#Testing)
 * [Deployment](#Deployment)
 * [Credits](#Credits)
@@ -45,6 +45,28 @@ Each page is designed to provide practical information, with inspiring images an
 ## Skeleton
 Here I have inlcuded the images for Wirefrmaes
 * Wirefrmaes
+    * Homepage
+        * [Homepage Web](https://github.com/shadowy-year2020/fork-knife/blob/main/assets/images/homepageweb.jpg)
+        * [Homepage Tablet](https://github.com/shadowy-year2020/fork-knife/blob/main/assets/images/homepagetablet.png)
+        * [Homepage Phone](https://github.com/shadowy-year2020/fork-knife/blob/main/assets/images/homepagephone.png)
+    * Menus
+        * [A La Carte Menu Web](https://github.com/shadowy-year2020/fork-knife/blob/main/assets/images/alacartemenuweb.jpg)
+        * [A La Carte Menu Tablet](https://github.com/shadowy-year2020/fork-knife/blob/main/assets/images/alacartemenutablet.png)
+        * [A La Carte Menu Phone](https://github.com/shadowy-year2020/fork-knife/blob/main/assets/images/alacartephone.png)
+        * [Lunch Menu Web](https://github.com/shadowy-year2020/fork-knife/blob/main/assets/images/lunchmenuweb.jpg)
+        * [Lunch Menu Tablet](https://github.com/shadowy-year2020/fork-knife/blob/main/assets/images/lunchtablet.png)
+        * [Lunch Menu Phone](https://github.com/shadowy-year2020/fork-knife/blob/main/assets/images/lunchphone.png)
+        * [Pre-Theatre Menu Web](https://github.com/shadowy-year2020/fork-knife/blob/main/assets/images/pretheatremenuweb.jpg)
+        * [Pre-Theatre Menu Tablet](https://github.com/shadowy-year2020/fork-knife/blob/main/assets/images/pretheatretablet.png)
+        * [Pre-Theatre Menu Phone](https://github.com/shadowy-year2020/fork-knife/blob/main/assets/images/pretheatrephone.png)
+    * Offers
+        * [Offers Web](https://github.com/shadowy-year2020/fork-knife/blob/main/assets/images/offersweb.jpg)
+        * [Offers Tablet](https://github.com/shadowy-year2020/fork-knife/blob/main/assets/images/offerstablet.png)
+        * [Offers Phone](https://github.com/shadowy-year2020/fork-knife/blob/main/assets/images/offersphone.png)
+    * Contact
+        * [Contact Web](https://github.com/shadowy-year2020/fork-knife/blob/main/assets/images/contactweb.jpg)
+        * [Contact Tablet](https://github.com/shadowy-year2020/fork-knife/blob/main/assets/images/contacttablet.png)
+        * [Contact Phone](https://github.com/shadowy-year2020/fork-knife/blob/main/assets/images/contactphone.png)
 ## DesignChoices
 # Features
 # Technologies Used
