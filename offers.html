@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,7 +17,7 @@
                 <div class="site-wide-alert alert-warning">
                     <strong>
                         <i class="fas fa-asterisk" aria-hidden="true"></i>
-                            Due to Goverment Guidelines we are closed! Hope to see you all soon!
+                        Due to Goverment Guidelines we are closed! Hope to see you all soon!
                         <i class="fas fa-asterisk" aria-hidden="true"></i>
                     </strong>
                 </div>
@@ -44,9 +43,9 @@
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false"> Menu </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#"> A La Carte </a></li>
-                            <li><a class="dropdown-item" href="#"> Lunch </a></li>
-                            <li><a class="dropdown-item" href="#"> Pre-Theatre </a></li>
+                            <li><a class="dropdown-item" href="alacarte.html"> A La Carte </a></li>
+                            <li><a class="dropdown-item" href="lunch.html"> Lunch </a></li>
+                            <li><a class="dropdown-item" href="pretheatre.html"> Pre-Theatre </a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -89,7 +88,7 @@
                         presented on a round tray) for only £9.95 per person. </p>
                     <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#bookingModal"> Book a Table
                     </button>
-                    <button class="btn btn-success"> Veiw the Menu </button>
+                    <a href="lunch.html"><button class="btn btn-success"> Veiw the Menu </button></a>
                 </section>
             </div>
         </div>
@@ -112,7 +111,7 @@
                         Enjoy the delicious choices of starters and main courses for just £15.95 per person. </p>
                     <button class="btn btn-success btn-bottom" data-bs-toggle="modal" data-bs-target="#bookingModal">
                         Book a Table </button>
-                    <button class="btn btn-success btn-bottom"> Veiw the Menu </button>
+                    <a href="pretheatre.html"><button class="btn btn-success btn-bottom"> Veiw the Menu </button></a>
                 </section>
             </div>
         </div>
@@ -148,19 +147,19 @@
 
                 <ul class="list-inline footer-links">
                     <li class="list-inline-item">
-                        <a href="#" target="_blank">
+                        <a href="https://www.facebook.com/" target="_blank">
                             <i class="fab fa-facebook" aria-hidden="true"></i>
                             <span class="sr-only"> Facebook </span>
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a href="#" target="_blank">
+                        <a href="https://www.instagram.com/" target="_blank">
                             <i class="fab fa-instagram-square" aria-hidden="true"></i>
                             <span class="sr-only"> Instagram </span>
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a href="#" target="_blank">
+                        <a href="https://www.tripadvisor.com/" target="_blank">
                             <i class="fab fa-tripadvisor" aria-hidden="true"></i>
                             <span class="sr-only"> Trip Advisor </span>
                         </a>
@@ -174,47 +173,54 @@
     <div class="modal fade" id="bookingModal" tabindex="-1" aria-labelledby="bookingModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="bookingModalLabel"> Book a Table </h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <div class="form-group">
-                        <label for="Firstname">First Name</label>
-                        <input type="name" class="form-control" id="Firstname" aria-describedby="firstname"
-                            placeholder="First Name" required>
+                <form action="" method="POST">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="bookingModalLabel"> Book a Table </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
-                    <div class="form-group">
-                        <label for="Lastname">Last Name</label>
-                        <input type="name" class="form-control" id="Lastname" aria-describedby="lastname"
-                            placeholder="Last Name" required>
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <label for="Firstname">First Name</label>
+                            <input type="name" class="form-control" id="Firstname" aria-describedby="firstname"
+                                placeholder="First Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="Lastname">Last Name</label>
+                            <input type="name" class="form-control" id="Lastname" aria-describedby="lastname"
+                                placeholder="Last Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="Email">Email address</label>
+                            <input type="email" class="form-control" id="Email" aria-describedby="emailHelp"
+                                placeholder="Enter email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="Phone">Phone</label>
+                            <input type="phone" class="form-control" id="Phone" placeholder="Phone Number" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="howmany">How Many:</label>
+                            <input type="number" class="form-control" id="howmany" name="quantity" min="1" max="20">
+                        </div>
+                        <div class="form-group">
+                            <label for="date"> Date </label>
+                            <input type="date" name="date" class="form-control" id="date" min="2021-01-11"
+                                max="2021-03-30" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="appt">Select a time:</label>
+                            <input type="time" class="form-control" id="appt" name="appt" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="textarea">Any Requests</label>
+                            <textarea class="form-control" id="textarea" placeholder="Please type here" rows="5"
+                                required></textarea>
+                        </div>
                     </div>
-                    <div class="form-group">
-                        <label for="Email">Email address</label>
-                        <input type="email" class="form-control" id="Email" aria-describedby="emailHelp"
-                            placeholder="Enter email" required>
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-success"> Book a Table </button>
                     </div>
-                    <div class="form-group">
-                        <label for="Phone">Phone</label>
-                        <input type="phone" class="form-control" id="Phone" placeholder="Phone Number" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="howmany">How Many:</label>
-                        <input type="number" class="form-control" id="howmany" name="quantity" min="1" max="20">
-                    </div>
-                    <div class="form-group">
-                        <label for="appt">Select a time:</label>
-                        <input type="time" class="form-control" id="appt" name="appt" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="textarea">Any Requests</label>
-                        <textarea class="form-control" id="textarea" placeholder="Please type here" rows="5"
-                            required></textarea>
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-success"> Book a Table </button>
-                </div>
+                </form>
             </div>
         </div>
     </div>
