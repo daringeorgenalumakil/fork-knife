@@ -7,15 +7,15 @@ Fork & Knife is an educational project to serve as a a milestone project for the
 # Table of Contents
 * [Demo](#Demo)
 * [UX](#UX)
-    * [Buisness Goals](##BuisnessGoals)
-    * [User Goals](##UserGoals)
-    * [User Stories](##UserStories)
+    * [Buisness Goals](##Buisness)
+    * [User Goals](##User)
+    * [User Stories](##User)
     * [Structure](##Structure)
     * [Skeleton](##Skeleton)
         * [Wirefrmaes](*Wirefrmaes)
     * [Design Choices](##Design)
 * [Features](#Features)
-* [Tecnologies Used](#TechnologiesUsed)
+* [Tecnologies Used](#Technologies)
 * [Testing](#Testing)
 * [Deployment](#Deployment)
 * [Credits](#Credits)
@@ -67,7 +67,7 @@ Here I have inlcuded the images for Wirefrmaes
         * [Contact Web](https://github.com/shadowy-year2020/fork-knife/blob/main/assets/images/contactweb.jpg)
         * [Contact Tablet](https://github.com/shadowy-year2020/fork-knife/blob/main/assets/images/contacttablet.png)
         * [Contact Phone](https://github.com/shadowy-year2020/fork-knife/blob/main/assets/images/contactphone.png)
-## DesignChoices
+## Design Choices
 # Features
 # Technologies Used
 # Testing

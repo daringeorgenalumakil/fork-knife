@@ -17,6 +17,28 @@ body {
     margin-bottom: 15px;
 }
 
+.navbar .navabar-items a {
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.navbar .navbar-items a:hover {
+    color: #c33149;
+}
+
+.collapse .navbar-nav .nav-item a {
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.collapse .navbar-nav .nav-item a:hover {
+    color: #c33149;
+}
+
 .navbar-nav .nav-item {
     margin-right: 5px;
     letter-spacing: 4px;
@@ -107,6 +129,62 @@ body {
     animation-fill-mode: forwards;
 }
 
+.callout-container-alacarte {
+    margin-bottom: 20px;
+    
+    height: 50vh;
+    background: url(../images/alacartecontaineredit.jpg) no-repeat center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    animation-name: hero-zoom;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+
+.callout-container-lunch {
+    margin-bottom: 20px;
+    
+    height: 50vh;
+    background: url(../images/lunchcontainer.JPG) no-repeat left center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    animation-name: hero-zoom;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+
+.callout-container-pretheatre {
+    margin-bottom: 20px;
+    
+    height: 50vh;
+    background: url(../images/pretheatrecontainer.jpg) no-repeat center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    animation-name: hero-zoom;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
 .page-header {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -264,16 +342,29 @@ body {
    
 }
 
-#textarea {
-    margin-bottom: 20px;
-}
-
 .btn-email {
         font-weight: bold;
+        margin-top: 20px;
     }
 
 .btn-menu {
     margin-bottom: 10px;
+}
+
+.menu-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    background-color: #c33149;
+}
+
+.starter {
+    color: white;
+}
+
+.deserts {
+    color: white;
+    margin-bottom: 40px;
 }
 /*-----------------------------------Footer----------------------------*/
 .footer-container {
@@ -284,10 +375,6 @@ body {
 
 .footer {
     text-align: center;
-}
-
-.footer p{
-    font-size: 10px;
 }
 
 .footer-heading {
@@ -311,7 +398,7 @@ body {
     height: 32px;
     padding: 12px 0;
     border-radius: 50%;
-    font-size: 20px;
+    font-size: 25px;
     line-height: 7px;
     text-align: center;
     color: #fafafa;
@@ -348,6 +435,26 @@ body {
 .map-wrapper i {
     margin-bottom: 10px;
     margin-top: 20px;
+}
+
+.price {
+    margin-bottom: 0;
+}
+
+.dish-col-one {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    letter-spacing: 1px;
+}
+
+.dish-col-two {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    letter-spacing: 1px;
 }
 /*-----------------------------------Media Queries----------------------------*/
 
@@ -406,6 +513,19 @@ body {
     }
     .reviews p {
         font-size: 12px;
+    }
+    .menu-jumbotron {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 30px;
+    padding-top: 50px;
+    letter-spacing: 2px;
+    background-color: transparent;
+    font-family: "Playfair Display", sans-serif;
+    }
+    .footer p {
+    font-size: 10px;
     }
 }
 
@@ -467,6 +587,19 @@ body {
     }
     .reviews p {
         font-size: 20px;
+    }
+    .menu-jumbotron {
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 30px;
+    padding-top: 50px;
+    letter-spacing: 2px;
+    background-color: transparent;
+    font-family: "Playfair Display", sans-serif;
+    }
+    .footer p{
+    font-size: 15px;
     }
 }
 

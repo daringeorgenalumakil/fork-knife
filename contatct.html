@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
+
+<!-- Header with style sheet and title-->
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,22 +11,23 @@
     <link rel="stylesheet" href="assets/css/stylesheet.css">
     <title>Fork & Knife</title>
 </head>
+<!-- /Header with style sheet and title-->
 
 <body>
     <!-- Alert-->
-    <div class="container-fluid alert-container">
+    <section class="container-fluid alert-container">
         <div class="row d-none d-sm-block">
             <div class="col-12">
                 <div class="site-wide-alert alert-warning">
-                    <strong> 
-                        <i class="fas fa-asterisk" aria-hidden="true"></i> 
-                         Due to Goverment Guidelines we are closed! Hope to see you all soon! 
-                        <i class="fas fa-asterisk" aria-hidden="true"></i> 
+                    <strong>
+                        <i class="fas fa-asterisk" aria-hidden="true"></i>
+                        Due to Goverment Guidelines we are closed! Hope to see you all soon!
+                        <i class="fas fa-asterisk" aria-hidden="true"></i>
                     </strong>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
     <!-- /alert-->
     <!-- Navigation -->
     <nav class="navbar navbar-expand-sm navbar-dark">
@@ -59,8 +63,8 @@
         </div>
     </nav>
     <!-- /navigation -->
-    <!-- Callout -->
-    <div class="container-fluid callout-container-contact">
+    <!-- Contact Callout -->
+    <main class="container-fluid callout-container-contact">
         <div class="row">
             <div class="col-12">
                 <section class="callout jumbotron text-center">
@@ -68,12 +72,12 @@
                 </section>
             </div>
         </div>
-    </div>
-    <!-- /callout -->
+    </main>
+    <!-- /contact callout -->
     <!-- About Location -->
-    <div class="container-fluid container-wrapper-about">
+    <article class="container-fluid container-wrapper-about">
         <div class="container location-container">
-            <section class="location text-center">
+            <div class="location text-center">
                 <div class="row">
                     <div class="col-12">
                         <h3 class="text-uppercase page-header"> Located in the Heart of Glasgow </h3>
@@ -82,12 +86,12 @@
                         </p>
                     </div>
                 </div>
-            </section>
+            </div>
         </div>
-    </div>
+    </article>
     <!-- /about location -->
-    <!--Form-->
-    <div class="conatiner form-container">
+    <!-- Contact Form-->
+    <section class="conatiner form-container">
         <div class="row form-container">
             <div class="col-12 col-md-12">
                 <h4 class="text-uppercase text-center page-header"> Send us a Message </h4>
@@ -120,10 +124,10 @@
                 </form>
             </div>
         </div>
-    </div>
-    <!-- /form-->
-    <!-- Location-->
-    <div class="map-wrapper">
+    </section>
+    <!-- /contat form-->
+    <!-- Map-->
+    <section class="map-wrapper">
         <h3 class="text-uppercase text-center page-header"> <i class="fas fa-street-view d-none d-sm-block"
                 aria-hidden="true"></i> How to Find Us! </h3>
         <iframe
@@ -131,11 +135,11 @@
             width="100%" height="350" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
             tabindex="0">
         </iframe>
-    </div>
-    <!-- /location-->
+    </section>
+    <!-- /map-->
     <!-- Footer-->
-    <div class="container footer-container">
-        <section class="footer">
+    <footer class="container footer-container">
+        <div class="footer">
             <div class="row">
                 <div class="col-12 col-lg-4">
                     <div class="footer">
@@ -182,9 +186,10 @@
                     </li>
                 </ul>
             </div>
-        </section>
-    </div>
+        </div>
+    </footer>
     <!-- /footer-->
+    <!-- External Scripts-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
         crossorigin="anonymous"></script>
@@ -198,6 +203,7 @@
         integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
         crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/6504a1c24f.js" crossorigin="anonymous"></script>
+    <!-- /external scripts-->
 </body>
 
 </html>

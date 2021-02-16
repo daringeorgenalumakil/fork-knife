@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- Header with style sheet and title-->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,10 +9,11 @@
     <link rel="stylesheet" href="assets/css/stylesheet.css">
     <title>Fork & Knife</title>
 </head>
+<!--/ Header with style sheet and title-->
 
 <body>
     <!-- Alert-->
-    <div class="container-fluid alert-container">
+    <section class="container-fluid alert-container">
         <div class="row d-none d-sm-block">
             <div class="col-12">
                 <div class="site-wide-alert alert-warning">
@@ -23,7 +25,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
     <!-- /alert-->
     <!-- Navigation -->
     <nav class="navbar navbar-expand-sm navbar-dark">
@@ -59,8 +61,8 @@
         </div>
     </nav>
     <!-- /navigation -->
-    <!-- Callout -->
-    <div class="container-fluid callout-container-offers">
+    <!-- Offers Callout -->
+    <main class="container-fluid callout-container-offers">
         <div class="row">
             <div class="col-12">
                 <section class="callout jumbotron text-center">
@@ -68,19 +70,19 @@
                 </section>
             </div>
         </div>
-    </div>
-    <!-- /callout -->
-    <!-- Offers-->
-    <div class="container-fluid lunch-offer-container">
+    </main>
+    <!-- /offers callout -->
+    <!-- Lunch Offer-->
+    <section class="container-fluid lunch-offer-container">
         <div class="row lunch-offer-container">
             <div class="col-12 col-md-6 lunch-offer-container">
-                <section class="lunch-offer-image">
+                <figure class="lunch-offer-image">
                     <img src="../fork-knife/assets/images/lunchmenu2.jpg" class="img-thumbnail" alt="Lunch Menu">
-                </section>
+                </figure>
             </div>
 
             <div class="col-12 col-md-6 ">
-                <section class="lunch-offer">
+                <div class="lunch-offer">
                     <h2> Lunch Menu </h2>
                     <h5> Thali Course for £9.95 person </h5>
                     <p> Choose from an authentic Indian Thali (a traditional well-balanced lunch with a selection of
@@ -89,37 +91,38 @@
                     <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#bookingModal"> Book a Table
                     </button>
                     <a href="lunch.html"><button class="btn btn-success"> Veiw the Menu </button></a>
-                </section>
+                </div>
             </div>
         </div>
-    </div>
-
-    <div class="container-fluid pretheatre-offer-container">
+    </section>
+    <!-- /lunch offer-->
+    <!-- Pretheatre Offer-->
+    <section class="container-fluid pretheatre-offer-container">
         <div class="row pretheatre-offer-container">
             <div class="col-12 col-md-6 pretheatre-offer-container">
-                <section class="pretheatre-offer-image">
+                <figure class="pretheatre-offer-image">
                     <img src="../fork-knife/assets/images/pretheatre2.jpg" class="img-thumbnail" alt="Pre-Theatre Menu">
-                </section>
+                </figure>
             </div>
 
             <div class="col-12 col-md-6">
-                <section class="pretheatre-offer">
+                <div class="pretheatre-offer">
                     <h2> Pre-Theatre Menu </h2>
-                    <h5> Two Course Meal for £15.95 </h5>
-                    <p> You don’t need to wait for a special occasion to treat yourself. Our two-course pre-theatre menu
+                    <h5> Two Course Meal for £18.99 </h5>
+                    <p> You don’t need to wait for a special occasion to treat yourself. Our three-course pre-theatre menu
                         is available every day.
-                        Enjoy the delicious choices of starters and main courses for just £15.95 per person. </p>
+                        Enjoy the delicious choices of starters,main courses and deserts for just £18.99 per person. </p>
                     <button class="btn btn-success btn-bottom" data-bs-toggle="modal" data-bs-target="#bookingModal">
                         Book a Table </button>
                     <a href="pretheatre.html"><button class="btn btn-success btn-bottom"> Veiw the Menu </button></a>
-                </section>
+                    </div>
             </div>
         </div>
-    </div>
-    <!--/offers-->
+    </section>
+    <!--/pretheatre offer-->
     <!-- Footer-->
-    <div class="container footer-container">
-        <section class="footer">
+    <footer class="container footer-container">
+        <div class="footer">
             <div class="row">
                 <div class="col-12 col-lg-4">
                     <div class="footer">
@@ -166,8 +169,8 @@
                     </li>
                 </ul>
             </div>
-        </section>
-    </div>
+        </div>
+    </footer>
     <!-- /footer-->
     <!-- Modal Booking-->
     <div class="modal fade" id="bookingModal" tabindex="-1" aria-labelledby="bookingModalLabel" aria-hidden="true">
@@ -214,7 +217,7 @@
                         <div class="form-group">
                             <label for="textarea">Any Requests</label>
                             <textarea class="form-control" id="textarea" placeholder="Please type here" rows="5"
-                                required></textarea>
+                                ></textarea>
                         </div>
                     </div>
                     <div class="modal-footer">

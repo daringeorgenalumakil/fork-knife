@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- Header with style sheet and title-->
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,10 +10,11 @@
     <link rel="stylesheet" href="assets/css/stylesheet.css">
     <title>Fork & Knife</title>
 </head>
+<!-- /Header with style sheet and title-->
 
 <body>
     <!-- Alert-->
-    <div class="container-fluid alert-container">
+    <section class="container-fluid alert-container">
         <div class="row d-none d-sm-block">
             <div class="col-12">
                 <div class="site-wide-alert alert-warning">
@@ -23,7 +26,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
     <!-- /alert-->
     <!-- Navigation -->
     <nav class="navbar navbar-expand-sm navbar-dark">
@@ -59,121 +62,177 @@
         </div>
     </nav>
     <!-- /navigation -->
-    <!-- Callout -->
-    <div class="container-fluid callout-container-contact">
+    <!-- Alacarte Callout -->
+    <main class="container-fluid callout-container-alacarte">
         <div class="row">
             <div class="col-12">
                 <section class="callout jumbotron text-center">
-                    <h1 class="container-fluid jumbotron-header text-uppercase contact-jumbotron"> A La Carte </h1>
+                    <h1 class="container-fluid jumbotron-header text-uppercase menu-jumbotron"> A La Carte </h1>
                 </section>
             </div>
         </div>
-    </div>
-    <!-- /callout -->
-    <!-- Menu -->
-    <section class="starter container">
+    </main>
+    <!-- /alacarte callout -->
+    <!-- Alacarte Timings -->
+    <article class="container-fluid menu-container">
         <div class="row">
+            <div class="col-12">
+                <h3 class="text-center">Discover a new experience with every meal.</h3>
+                <p class="text-center"> <small> Monday-Friday 12pm till 11pm. </small> </p>
+            </div>
+        </div>
+    </article>
+    <!-- /alacarte timings -->
+    <!-- Menu -->
+    <section class="starter container-fluid">
+        <div class="row no-gutter">
             <div class="col-12">
                 <h2 class="text-uppercase text-center page-header"> Starters </h2>
             </div>
-            <div class="col-12 col-md-4 col-lg-4">
-                <h4 class="text-center">Dish 1</h4>
-                <p class="text-center">Something about dish</p>
+            <div class="col-12 col-md-4 col-lg-4 dish-col-one">
+                <p class="text-center price"> <small> £4.99 </small> </p>
+                <h4 class="text-center"> Raj Kachori <i class="fas fa-pepper-hot" aria-hidden="true"></i> </h4>
+                <p class="text-center"> Crispy deep fried snack, filled potatoes, sprouts, yoghurt and
+                    chutney. Topped with cilantro and pomegranate seeds. </p>
             </div>
-            <div class="col-12 col-md-4 col-lg-4">
-                <h4 class="text-center">Dish 2</h4>
-                <p class="text-center">Something about dish</p>
+            <div class="col-12 col-md-4 col-lg-4 dish-col-one">
+                <p class="text-center price"> <small> £3.99 </small> </p>
+                <h4 class="text-center">Samosa <i class="fas fa-pepper-hot" aria-hidden="true">
+                    </i> <i class="fas fa-pepper-hot" aria-hidden="true"></i> 
+                </h4>
+                <p class="text-center"> Baked pastry with a savoury filling of spiced potatoes or meat. </p>
             </div>
-            <div class="col-12 col-md-4 col-lg-4">
-                <h4 class="text-center">Dish 3</h4>
-                <p class="text-center">Something about dish</p>
+            <div class="col-12 col-md-4 col-lg-4 dish-col-one">
+                <p class="text-center price"> <small> £4.99 </small> </p>
+                <h4 class="text-center">Vada Pav <i class="fas fa-pepper-hot" aria-hidden="true"></i>
+                    <i class="fas fa-pepper-hot" aria-hidden="true"></i> <i class="fas fa-pepper-hot" aria-hidden="true"></i>
+                </h4>
+                <p class="text-center"> Fried potato dumpling inside a bun with sauces and green chilly pepper. </p>
             </div>
         </div>
-        <div class="row">
-            <div class="col-12 col-md-4 col-lg-4">
-                <h4 class="text-center">Dish 5</h4>
-                <p class="text-center">Something about dish</p>
+        <div class="row no-gutter">
+            <div class="col-12 col-md-4 col-lg-4 dish-col-two">
+                <p class="text-center price"> <small> £4.99 </small> </p>
+                <h4 class="text-center"> Sukhiyan </h4>
+                <p class="text-center"> Fritter food made by pulses with jaggery and flour. </p>
             </div>
-            <div class="col-12 col-md-4 col-lg-4">
-                <h4 class="text-center">Dish 6</h4>
-                <p class="text-center">Something about dish</p>
+            <div class="col-12 col-md-4 col-lg-4 dish-col-two">
+                <p class="text-center price"> <small> £2.99 </small> </p>
+                <h4 class="text-center"> Cutlets <i class="fas fa-pepper-hot" aria-hidden="true"></i> 
+                    <i class="fas fa-pepper-hot" aria-hidden="true"></i>
+                </h4>
+                <p class="text-center"> Cutlet shaped patty made of ground meat or potatoes and other spices. </p>
             </div>
-            <div class="col-12 col-md-4 col-lg-4">
-                <h4 class="text-center">Dish 7</h4>
-                <p class="text-center">Something about dish</p>
+            <div class="col-12 col-md-4 col-lg-4 dish-col-two">
+                <p class="text-center price"> <small> £3.99 </small> </p>
+                <h4 class="text-center"> Egg Puffs <i class="fas fa-pepper-hot" aria-hidden="true"></i> 
+                    <i class="fas fa-pepper-hot" aria-hidden="true"></i> 
+                </h4>
+                <p class="text-center"> Boiled egg and spiced onion, encased in a baked puff pastry shell. </p>
             </div>
         </div>
     </section>
-    <section class="mains container">
-        <div class="row">
+    <section class="mains container-fluid menu-container">
+        <div class="row no-gutter">
             <div class="col-12">
                 <h2 class="text-uppercase text-center page-header"> Mains </h2>
             </div>
-            <div class="col-12 col-md-4 col-lg-4">
-                <h4 class="text-center">Dish 1</h4>
-                <p class="text-center">Something about dish</p>
+            <div class="col-12 col-md-4 col-lg-4 dish-col-one">
+                <p class="text-center price"> <small> £7.99 </small> </p>
+                <h4 class="text-center"> Pav Bhaji <i class="fas fa-pepper-hot" aria-hidden="true"></i> 
+                    <i class="fas fa-pepper-hot" aria-hidden="true"></i> 
+                </h4>
+                <p class="text-center"> Delicious blend of mixed veggies, cooked in butter and spices.
+                    Served with soft butter tasted buns. </p>
             </div>
-            <div class="col-12 col-md-4 col-lg-4">
-                <h4 class="text-center">Dish 2</h4>
-                <p class="text-center">Something about dish</p>
+            <div class="col-12 col-md-4 col-lg-4 dish-col-one">
+                <p class="text-center price"> <small> £9.99 </small> </p>
+                <h4 class="text-center"> Rajma Chawal <i class="fas fa-pepper-hot" aria-hidden="true"></i>  </h4>
+                <p class="text-center"> Red kidney beans curry with steamed rice. Topped with onions and sauces. </p>
             </div>
-            <div class="col-12 col-md-4 col-lg-4">
-                <h4 class="text-center">Dish 3</h4>
-                <p class="text-center">Something about dish</p>
+            <div class="col-12 col-md-4 col-lg-4 dish-col-one">
+                <p class="text-center price"> <small> £9.99 </small> </p>
+                <h4 class="text-center"> Chole Bhature <i class="fas fa-pepper-hot" aria-hidden="true"></i> 
+                    <i class="fas fa-pepper-hot" aria-hidden="true"></i> 
+                </h4>
+                <p class="text-center"> Spiced tangie chick peas masala with deep fried flats breads. </p>
             </div>
         </div>
-        <div class="row">
-            <div class="col-12 col-md-4 col-lg-4">
-                <h4 class="text-center">Dish 5</h4>
-                <p class="text-center">Something about dish</p>
+        <div class="row no-gutter">
+            <div class="col-12 col-md-4 col-lg-4 dish-col-two">
+                <p class="text-center price"> <small> £8.99 </small> </p>
+                <h4 class="text-center"> Vada Sambhar <i class="fas fa-pepper-hot" aria-hidden="true"></i> 
+                    <i class="fas fa-pepper-hot" aria-hidden="true"></i> 
+                </h4>
+                <p class="text-center"> Crispy donughnut shapped fritter made from pulses.
+                    Served with Lentil based vegetable stew in tamirind broth</p>
             </div>
-            <div class="col-12 col-md-4 col-lg-4">
-                <h4 class="text-center">Dish 6</h4>
-                <p class="text-center">Something about dish</p>
+            <div class="col-12 col-md-4 col-lg-4 dish-col-two">
+                <p class="text-center price"> <small> £10.99 </small> </p>
+                <h4 class="text-center"> Masala Dosa <i class="fas fa-pepper-hot" aria-hidden="true"></i> 
+                    <i class="fas fa-pepper-hot" aria-hidden="true"></i> 
+                    <i class="fas fa-pepper-hot" aria-hidden="true"></i> 
+                </h4>
+                <p class="text-center"> Crispy rice and lentil crepes stuffed with spiced and savoury potato filling.
+                    Served with coconut chuttney. </p>
             </div>
-            <div class="col-12 col-md-4 col-lg-4">
-                <h4 class="text-center">Dish 7</h4>
-                <p class="text-center">Something about dish</p>
+            <div class="col-12 col-md-4 col-lg-4 dish-col-two">
+                <p class="text-center price"> <small> £7.99 </small> </p>
+                <h4 class="text-center"> Malabar Porotta <i class="fas fa-pepper-hot" aria-hidden="true"></i> 
+                    <i class="fas fa-pepper-hot" aria-hidden="true"></i> 
+                </h4>
+                <p class="text-center"> Layerd Indian Flat-bread served with choice of curry. </p>
             </div>
         </div>
     </section>
-    <section class="deserts container">
-        <div class="row">
+    <section class="deserts container-fluid">
+        <div class="row no-gutter">
             <div class="col-12">
                 <h2 class="text-uppercase text-center page-header"> Deserts </h2>
             </div>
-            <div class="col-12 col-md-4 col-lg-4">
-                <h4 class="text-center">Dish 1</h4>
-                <p class="text-center">Something about dish</p>
+            <div class="col-12 col-md-4 col-lg-4 dish-col-one">
+                <p class="text-center price"> <small> £3.99 </small> </p>
+                <h4 class="text-center"> Pistachio & safforn rice pudding (Kheer) </h4>
+                <p class="text-center"> Slow-cooked rice, milk and rice.
+                    Flavoured with saffron and various nuts. Served chilled. </p>
             </div>
-            <div class="col-12 col-md-4 col-lg-4">
-                <h4 class="text-center">Dish 2</h4>
-                <p class="text-center">Something about dish</p>
+            <div class="col-12 col-md-4 col-lg-4 dish-col-one">
+                <p class="text-center price"> <small> £2.99 </small> </p>
+                <h4 class="text-center"> Gulab Jamun </h4>
+                <p class="text-center"> Spongy milky balls soacked in Rose scented syrup. </p>
             </div>
-            <div class="col-12 col-md-4 col-lg-4">
-                <h4 class="text-center">Dish 3</h4>
-                <p class="text-center">Something about dish</p>
+            <div class="col-12 col-md-4 col-lg-4 dish-col-one">
+                <p class="text-center price"> <small> £1.99 </small> </p>
+                <h4 class="text-center"> Jalebi </h4>
+                <p class="text-center"> 3 fried cripsy swirls, dipped in saffron, cardomom sugar syrup.
+                    Served with any chocie of icecream. </p>
             </div>
         </div>
-        <div class="row">
-            <div class="col-12 col-md-4 col-lg-4">
-                <h4 class="text-center">Dish 5</h4>
-                <p class="text-center">Something about dish</p>
+        <div class="row no-gutter">
+            <div class="col-12 col-md-4 col-lg-4 dish-col-two">
+                <p class="text-center price"> <small> £3.99 </small> </p>
+                <h4 class="text-center"> Ras Malai </h4>
+                <p class="text-center"> 2 cottage cheese balls soaked in thicken,
+                    sweetned flavoured milk. Topped with nuts. </p>
             </div>
-            <div class="col-12 col-md-4 col-lg-4">
-                <h4 class="text-center">Dish 6</h4>
-                <p class="text-center">Something about dish</p>
+            <div class="col-12 col-md-4 col-lg-4 dish-col-two">
+                <p class="text-center price"> <small> £4.99 </small> </p>
+                <h4 class="text-center"> Falooda </h4>
+                <p class="text-center"> Ice -cream desert made using sweet basil seeds, vermicelli, roast syrup.
+                    Served with milk. </p>
             </div>
-            <div class="col-12 col-md-4 col-lg-4">
-                <h4 class="text-center">Dish 7</h4>
-                <p class="text-center">Something about dish</p>
+            <div class="col-12 col-md-4 col-lg-4 dish-col-two">
+                <p class="text-center price"> <small> £4.99 </small> </p>
+                <h4 class="text-center"> Carrot Halwa </h4>
+                <p class="text-center"> Carrot based sweet pudding made with sugar, ghee and milk.
+                    Flavoured with cardomom powder. </p>
             </div>
         </div>
     </section>
     <!-- /menu -->
     <!-- Footer-->
-    <div class="container footer-container">
-        <section class="footer">
+    <footer class="container footer-container">
+        <div class="footer">
             <div class="row">
                 <div class="col-12 col-lg-4">
                     <div class="footer">
@@ -220,9 +279,10 @@
                     </li>
                 </ul>
             </div>
-        </section>
-    </div>
+        </div>
+    </footer>>
     <!-- /footer-->
+    <!-- External Scripts-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
         crossorigin="anonymous"></script>
@@ -236,6 +296,7 @@
         integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
         crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/6504a1c24f.js" crossorigin="anonymous"></script>
+    <!-- /external scripts-->
 </body>
 
 </html>
