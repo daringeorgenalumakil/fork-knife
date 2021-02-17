@@ -374,14 +374,6 @@ body {
     margin-top: 20px;
 }
 
-.map {
-    width: 90rem;
-    height: 250px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .map-wrapper i {
     margin-bottom: 10px;
     margin-top: 20px;
@@ -495,6 +487,7 @@ body {
     .btn-email {
         font-weight: bold;
     }
+
     .page-header {
     margin-top: 20px;
     margin-bottom: 15px;
@@ -503,6 +496,7 @@ body {
     color: white;
     letter-spacing: 2px;
     }
+
     .jumboton-callout-header {
     color: white;
     font-weight: bold;
@@ -511,6 +505,7 @@ body {
     letter-spacing: 2px;
     font-family: "Playfair Display", sans-serif;
     }
+
     .contact-jumbotron {
     color: white;
     font-weight: bold;
@@ -531,22 +526,27 @@ body {
     background-color: transparent;
     font-family: "Playfair Display", sans-serif;
     }
+
     .navbar-brand {
     font-weight: bold;
     letter-spacing: 4px;
-    font-size: 20px;
+    font-size: 17px;
     }
+
     .reviews {
         margin: 20px;
     }
+
     .reviews h3 {
     font-size: 18px;
     letter-spacing: 2px;
     font-weight: bold;
     }
+
     .reviews p {
         font-size: 12px;
     }
+
     .menu-jumbotron {
     color: white;
     font-weight: bold;
@@ -557,8 +557,17 @@ body {
     background-color: transparent;
     font-family: "Playfair Display", sans-serif;
     }
+
     .footer p {
     font-size: 10px;
+    }
+
+    .map {
+    width: 18rem;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     }
 }
 
@@ -567,10 +576,12 @@ body {
         width: 80%;
         margin-left: 10%;
     }
+
     .btn-email {
         margin-left: 90px;
         font-weight: bold;
     }
+
     .page-header {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -579,6 +590,7 @@ body {
     color: white;
     letter-spacing: 2px;
     }
+
     .jumboton-callout-header {
     color: white;
     font-weight: bold;
@@ -587,6 +599,7 @@ body {
     font-family: "Playfair Display", sans-serif;
     font-size: 25px;
     }
+
     .contact-jumbotron {
     color: white;
     font-weight: bold;
@@ -598,7 +611,7 @@ body {
     font-family: "Playfair Display", sans-serif;
     }
 
-.jumbotron-offers {
+    .jumbotron-offers {
     color: white;
     font-weight: bold;
     font-size: 50px;
@@ -607,20 +620,24 @@ body {
     background-color: transparent;
     font-family: "Playfair Display", sans-serif;
     }
+
     .navbar-brand {
     font-weight: bold;
     margin-left: 5px;
     letter-spacing: 4px;
     font-size: 25px;
     }
+
     .reviews h3 {
     font-size: 20px;
     letter-spacing: 2px;
     font-weight: bold;
     }
+
     .reviews p {
         font-size: 15px;
     }
+
     .menu-jumbotron {
     color: white;
     font-weight: bold;
@@ -631,8 +648,17 @@ body {
     background-color: transparent;
     font-family: "Playfair Display", sans-serif;
     }
+
     .footer p{
     font-size: 12px;
+    }
+
+    .map {
+    width: 40rem;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     }
 }
 
@@ -641,6 +667,7 @@ body {
         margin-left: 37%;
         font-weight: bold;
     }
+
     .jumboton-callout-header {
     color: white;
     font-weight: bold;
@@ -648,6 +675,14 @@ body {
     margin-bottom: 30px;
     letter-spacing: 2px;
     font-family: "Playfair Display", sans-serif;
+    }
+
+    .map {
+    width: 90rem;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     }
 }
 /*-----------------------------------/Media Queries----------------------------*/

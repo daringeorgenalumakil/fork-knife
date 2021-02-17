@@ -146,20 +146,7 @@ Website's features are presented in an importance order.
     * [W3C Markup](https://validator.w3.org/) as tool to check for errors in HTML code.
     * [W3C CSS](https://jigsaw.w3.org/css-validator/) as a tool to check for errors in CCS Code.
     * [Google Maps](https://www.google.co.uk/maps/) used as a tool to give directions to the user.
-# Testing
-    * Testing User Stories
-        * To be able to navigate through the website comfortably and easily.
-            * As soon as the user is landed on the page they are met with Nav bar on the top with links to differ pages.
-            * User is also met with button which takes them right to a specific page rather thank going to nav links for accessibility.
-        * To be able to see through mobile first and pass it to my peers.
-            * The project is build in a mobile-first manner which means that every piece of information is design to be easily displayed on 
-              mobile first and expanded on a bigger screen whitout changing the functionality.
-        * To easily understand the purpose of the page.
-            * As the user lands on the website, the first thing it shows up is a big heading which briefly describe the websites purpose.
-        * To be able to find who owns the Buisness and how to contact them, This will give me more confidence to book a table and also the restaurant.
-            * Users are given forms on relevant pages with either buttons or forms to be able to contact the buisness.
-        * To be able to view some photos of popular dishes.
-            * Users will be met with gallery page to show the images of popular dishes along with other images for the restaurant.    
+# Testing   
 # Deployment
 # Credits
 * Contents
