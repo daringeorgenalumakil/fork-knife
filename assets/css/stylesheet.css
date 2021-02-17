@@ -1,3 +1,4 @@
+/*-----------------------------------Fonts---------------------------*/
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
 
@@ -18,10 +19,10 @@ body {
 }
 
 .navbar .navabar-items a {
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+    transition: all 0.90s ease-in-out;
+    -moz-transition: all 0.90s ease-in-out;
+    -webkit-transition: all 0.90s ease-in-out;
+    -o-transition: all 0.90s ease-in-out;
 }
 
 .navbar .navbar-items a:hover {
@@ -57,13 +58,13 @@ body {
 .dropdown-item {
     color: white;
 }
-
-/*-----------------------------------Section----------------------------*/
+/*-----------------------------------/navbar----------------------------*/
+/*-----------------------------------Index Section----------------------------*/
 .callout-container {
     margin-bottom: 20px;
     
     height: 50vh;
-    background: url(../images/homepageimgedit1.jpg) no-repeat fixed; 
+    background: url(../images/heroimage.jpg) no-repeat fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -76,131 +77,9 @@ body {
     animation-name: hero-zoom;
     animation-duration: 4s;
     animation-fill-mode: forwards;
-}
-
-@keyframes hero-zoom {
-  
-  from {
-      transform: scale(0.9);
-  }
-
-  to{
-      transform: scale(1);
-  }
-
-}
-
-
-.callout-container-offers {
-    margin-bottom: 20px;
-    
-    height: 50vh;
-    background: url(../images/offers3edit.jpg) no-repeat fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    animation-name: hero-zoom;
-    animation-duration: 4s;
-    animation-fill-mode: forwards;
-}
-
-.callout-container-contact {
-    margin-bottom: 20px;
-    
-    height: 50vh;
-    background: url(../images/contactedit.jpg) no-repeat fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    animation-name: hero-zoom;
-    animation-duration: 4s;
-    animation-fill-mode: forwards;
-}
-
-.callout-container-alacarte {
-    margin-bottom: 20px;
-    
-    height: 50vh;
-    background: url(../images/alacartecontaineredit.jpg) no-repeat center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    animation-name: hero-zoom;
-    animation-duration: 4s;
-    animation-fill-mode: forwards;
-}
-
-.callout-container-lunch {
-    margin-bottom: 20px;
-    
-    height: 50vh;
-    background: url(../images/lunchcontainer.JPG) no-repeat left center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    animation-name: hero-zoom;
-    animation-duration: 4s;
-    animation-fill-mode: forwards;
-}
-
-.callout-container-pretheatre {
-    margin-bottom: 20px;
-    
-    height: 50vh;
-    background: url(../images/pretheatrecontainer.jpg) no-repeat center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    animation-name: hero-zoom;
-    animation-duration: 4s;
-    animation-fill-mode: forwards;
-}
-.page-header {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-weight: bold;
-    font-size: 35px;
-    color: white;
-    letter-spacing: 2px;
 }
 
 .about-container {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    color: #f7fff7;
-}
-
-.location-container {
     margin-top: 20px;
     margin-bottom: 20px;
     color: #f7fff7;
@@ -260,9 +139,144 @@ body {
     margin-bottom: 10px;
 }
 
-
 .btn-feedback {
     margin-bottom: 20px;
+}
+
+.callout-button {
+    margin-bottom: 10px;
+}
+/*-----------------------------------/Index Section----------------------------*/
+/*-----------------------------------Menus----------------------------*/
+.callout-container-alacarte {
+    margin-bottom: 20px;
+    
+    height: 50vh;
+    background: url(../images/alacartecontainer.jpg) no-repeat center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    animation-name: hero-zoom;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+
+.callout-container-lunch {
+    margin-bottom: 20px;
+    
+    height: 50vh;
+    background: url(../images/lunchcontainer.jpg) no-repeat right fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    animation-name: hero-zoom;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+
+.callout-container-pretheatre {
+    margin-bottom: 20px;
+    
+    height: 50vh;
+    background: url(../images/pretheatrecontainer.jpg) no-repeat center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    animation-name: hero-zoom;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+.menu-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    background-color: #c33149;
+}
+
+.starter {
+    color: white;
+}
+
+.deserts {
+    color: white;
+    margin-bottom: 40px;
+}
+
+.price {
+    margin-bottom: 0;
+}
+
+.dish-col-one {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    letter-spacing: 2px;
+}
+
+.dish-col-one i {
+    font-size: 12px;
+}
+
+.dish-col-two {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    letter-spacing: 2px;
+}
+
+.dish-col-two i {
+    font-size: 12px;
+}
+
+.btn-menu {
+    margin: 2px;
+    font-weight: bold;
+}
+
+.container-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*-----------------------------------/Menus----------------------------*/
+/*-----------------------------------Offers----------------------------*/
+.callout-container-offers {
+    margin-bottom: 20px;
+    
+    height: 50vh;
+    background: url(../images/offerscontainer.jpg) no-repeat fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    animation-name: hero-zoom;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
 }
 
 .lunch-offer-container {
@@ -328,6 +342,42 @@ body {
 .btn-bottom {
     margin-bottom: 50px;
 }
+/*-----------------------------------/Offers----------------------------*/
+/*-----------------------------------Contact---------------------------*/
+.callout-container-contact {
+    margin-bottom: 20px;
+    
+    height: 50vh;
+    background: url(../images/contactcontainer.jpg) no-repeat fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    animation-name: hero-zoom;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+
+.location-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #f7fff7;
+}
+
+.map-wrapper {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.map-wrapper i {
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
 
 .form-container {
     padding-left: 10px;
@@ -343,29 +393,10 @@ body {
 }
 
 .btn-email {
-        font-weight: bold;
-        margin-top: 20px;
-    }
-
-.btn-menu {
-    margin-bottom: 10px;
-}
-
-.menu-container {
+    font-weight: bold;
     margin-top: 20px;
-    margin-bottom: 20px;
-    color: white;
-    background-color: #c33149;
 }
-
-.starter {
-    color: white;
-}
-
-.deserts {
-    color: white;
-    margin-bottom: 40px;
-}
+/*-----------------------------------/Contact----------------------------*/
 /*-----------------------------------Footer----------------------------*/
 .footer-container {
     margin-top: 20px;
@@ -411,7 +442,8 @@ body {
 .footer-links li a i:hover {
     color: #c33149;
 }
-
+/*-----------------------------------/Footer----------------------------*/
+/*-----------------------------------Alert----------------------------*/
 .alert-container .col-12 {
     padding-left: 0;
     padding-right: 0;
@@ -426,38 +458,31 @@ body {
     background-color: #c33149;
     text-align: center;
 }
+/*-----------------------------------/Alert----------------------------*/
+/*-----------------------------------Animation----------------------------*/
+@keyframes hero-zoom {
+  
+  from {
+      transform: scale(0.9);
+  }
 
-.map-wrapper {
-    margin-bottom: 20px;
-    margin-top: 20px;
+  to{
+      transform: scale(1);
+  }
+
 }
-
-.map-wrapper i {
-    margin-bottom: 10px;
-    margin-top: 20px;
-}
-
-.price {
-    margin-bottom: 0;
-}
-
-.dish-col-one {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    letter-spacing: 1px;
-}
-
-.dish-col-two {
+/*-----------------------------------/Animation----------------------------*/
+/*-----------------------------------Speacial Headings----------------------------*/
+.page-header {
     margin-top: 20px;
     margin-bottom: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 35px;
+    color: white;
+    letter-spacing: 2px;
 }
+/*-----------------------------------/Speacial Headings----------------------------*/
 /*-----------------------------------Media Queries----------------------------*/
-
 @media(min-width: 320px) {
     .btn-email {
         font-weight: bold;
@@ -581,12 +606,12 @@ body {
     font-size: 25px;
     }
     .reviews h3 {
-    font-size: 30px;
+    font-size: 20px;
     letter-spacing: 2px;
     font-weight: bold;
     }
     .reviews p {
-        font-size: 20px;
+        font-size: 15px;
     }
     .menu-jumbotron {
     color: white;
@@ -599,7 +624,7 @@ body {
     font-family: "Playfair Display", sans-serif;
     }
     .footer p{
-    font-size: 15px;
+    font-size: 12px;
     }
 }
 
@@ -617,3 +642,4 @@ body {
     font-family: "Playfair Display", sans-serif;
     }
 }
+/*-----------------------------------/Media Queries----------------------------*/
