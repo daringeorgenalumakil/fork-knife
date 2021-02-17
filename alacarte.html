@@ -13,8 +13,8 @@
 <!-- /Header with style sheet and title-->
 
 <body>
-    <!-- Alert-->
-    <section class="container-fluid alert-container">
+    <header class="container-fluid alert-container">
+        <!-- Alert-->
         <div class="row d-none d-sm-block">
             <div class="col-12">
                 <div class="site-wide-alert alert-warning">
@@ -26,41 +26,42 @@
                 </div>
             </div>
         </div>
-    </section>
-    <!-- /alert-->
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-sm navbar-dark">
-        <div class="container-fluid navbar-items">
-            <a href="index.html" class="navbar-brand"> Fork & Knife <i class="fas fa-utensils" aria-hidden="true"></i>
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarmenu"
-                aria-controls="navbarmenu" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-between" id="navbarmenu">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="index.html"> Home </a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false"> Menu </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="alacarte.html"> A La Carte </a></li>
-                            <li><a class="dropdown-item" href="lunch.html"> Lunch </a></li>
-                            <li><a class="dropdown-item" href="pretheatre.html"> Pre-Theatre </a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="offers.html"> Offers </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="contatct.html"> Contact </a>
-                    </li>
-                </ul>
+        <!-- /alert-->
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-sm navbar-dark">
+            <div class="container-fluid navbar-items">
+                <a href="index.html" class="navbar-brand"> Fork & Knife <i class="fas fa-utensils"
+                        aria-hidden="true"></i>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarmenu"
+                    aria-controls="navbarmenu" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between" id="navbarmenu">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html"> Home </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false"> Menu </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="alacarte.html"> A La Carte </a></li>
+                                <li><a class="dropdown-item" href="lunch.html"> Lunch </a></li>
+                                <li><a class="dropdown-item" href="pretheatre.html"> Pre-Theatre </a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="offers.html"> Offers </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="contatct.html"> Contact </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </header>
     <!-- /navigation -->
     <!-- Alacarte Callout -->
     <main class="container-fluid callout-container-alacarte">
@@ -87,9 +88,9 @@
     <section class="container-buttons">
         <div class="row d-none d-sm-block">
             <div class="col-12">
-                <a href="alacarte.html"><button class="btn btn-success btn-menu"> A La Carte </button></a>
-                <a href="lunch.html"><button class="btn btn-success btn-menu"> Lunch </button></a>
-                <a href="pretheatre.html"><button class="btn btn-success btn-menu"> Pre-Theatre </button></a>
+                <a class="btn btn-success btn-menu" href="alacarte.html"> A La Carte </a>
+                <a class="btn btn-success btn-menu" href="lunch.html"> Lunch </a>
+                <a class="btn btn-success btn-menu" href="pretheatre.html"> Pre-Theatre </a>
             </div>
         </div>
     </section>
