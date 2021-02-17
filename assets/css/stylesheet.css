@@ -481,6 +481,12 @@ body {
     color: white;
     letter-spacing: 2px;
 }
+.menu-header {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-right: 10px;
+}
 /*-----------------------------------/Speacial Headings----------------------------*/
 /*-----------------------------------Media Queries----------------------------*/
 @media(min-width: 320px) {
