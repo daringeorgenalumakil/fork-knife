@@ -13,7 +13,7 @@ Fork & Knife is an educational project to serve as a a milestone project for the
     * [Structure](#Structure)
     * [Skeleton](#Skeleton)
         * [Wirefrmaes](#Wirefrmaes)
-    * [Design Choices](#Design)
+    * [Design Choices](#DesignChoices)
 * [Features](#Features)
 * [Tecnologies Used](#TechnologiesUsed)
 * [Testing](#Testing)
@@ -24,7 +24,7 @@ Fork & Knife is an educational project to serve as a a milestone project for the
 * [Live Website](https://shadowy-year2020.github.io/fork-knife/index.html)
 * ![Demo](/assets/images/amiresponsive.png)
 # UX
-* ## Buisness Goals
+* ## BuisnessGoals
     * The main goal of any restaurant is to attaract customers by their unique style of cuisine.
     In this case Fork & Knife is offering a mix of North Indian and South Indian dishes.
     * Other main goals are to attaract couples, families and childrens to book table with us.
@@ -33,7 +33,7 @@ Fork & Knife is an educational project to serve as a a milestone project for the
     * Having a healthy menu that attaracts families with their childrens.
     * Having the ability to know before hand on what to order and the prices.
     * Having the options to conatact the restaurant staff if in any doubt.
-* ## User Stories
+* ## UserStories
     * As a User I need to:
         * to be able to navigate through the website comfortably and easily.
         * to be able to see through mobile first and pass it to my peers.
@@ -69,7 +69,7 @@ Fork & Knife is an educational project to serve as a a milestone project for the
                 * [Contact Web](https://github.com/shadowy-year2020/fork-knife/blob/main/assets/images/contactweb.jpg)
                 * [Contact Tablet](https://github.com/shadowy-year2020/fork-knife/blob/main/assets/images/contacttablet.png)
                 * [Contact Phone](https://github.com/shadowy-year2020/fork-knife/blob/main/assets/images/contactphone.png)
-* ## Design Choices
+* ## DesignChoices
     * Colors
         * ![Colors](/assets/images/colors.png)
             * The Color Palette is carefully selected to invite users and excite them to book a table. 
