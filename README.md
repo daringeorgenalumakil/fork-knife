@@ -24,11 +24,11 @@ Fork & Knife is an educational project to serve as a a milestone project for the
 * [Live Website](https://shadowy-year2020.github.io/fork-knife/index.html)
 * ![Demo](/assets/images/amiresponsive.png)
 # UX
-* Buisness Goals 
-    * The main goal of any restaurant is to attaract customers by their unique style of cuisine.
+*    ## Buisness Goals 
+        * The main goal of any restaurant is to attaract customers by their unique style of cuisine.
         In this case Fork & Knife is offering a mix of North Indian and South Indian dishes.
-    * Other main goals are to attaract couples, families and childrens to book table with us.
-    * Buisness is also responsible to promote unique style of menu which attracts all age groups.
+        * Other main goals are to attaract couples, families and childrens to book table with us.
+        * Buisness is also responsible to promote unique style of menu which attracts all age groups.
 * UserGoals
     * Having a healthy menu that attaracts families with their childrens.
     * Having the ability to know before hand on what to order and the prices.
