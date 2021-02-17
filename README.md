@@ -7,7 +7,7 @@ Fork & Knife is an educational project to serve as a a milestone project for the
 # Table of Contents
 * [Demo](#Demo)
 * [UX](#UX)
-    * [Buisness Goals](*Buisness)
+    * [Buisness Goals](BuisnessGoals)
     * [User Goals](*User)
     * [User Stories](*User)
     * [Structure](*Structure)
@@ -26,7 +26,7 @@ Fork & Knife is an educational project to serve as a a milestone project for the
 # UX
 * Buisness Goals 
     * The main goal of any restaurant is to attaract customers by their unique style of cuisine.
-    In this case Fork & Knife is offering a mix of North Indian and South Indian dishes.
+        In this case Fork & Knife is offering a mix of North Indian and South Indian dishes.
     * Other main goals are to attaract couples, families and childrens to book table with us.
     * Buisness is also responsible to promote unique style of menu which attracts all age groups.
 * UserGoals
