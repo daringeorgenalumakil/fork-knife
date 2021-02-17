@@ -7,9 +7,9 @@ Fork & Knife is an educational project to serve as a a milestone project for the
 # Table of Contents
 * [Demo](#Demo)
 * [UX](#UX)
-    * [Buisness Goals](*BuisnessGoals)
-    * [User Goals](*UserGoals)
-    * [User Stories](*UserStories)
+    * [Buisness Goals](*Buisness)
+    * [User Goals](*User)
+    * [User Stories](*User)
     * [Structure](*Structure)
     * [Skeleton](*Skeleton)
         * [Wirefrmaes](*Wirefrmaes)
@@ -84,6 +84,41 @@ Fork & Knife is an educational project to serve as a a milestone project for the
     * Icongraphy
         * Icons are used throughout the project to help user understand more efficiently the meaning of the content. They are a very good asset to improve UX.
 # Features
+* Website's features are presented in an importance order.
+## Index Page
+    * Navigation Bar
+        * Allows users to navigate through the page. Website is split into 6 pages and all navigation links are at the top of the page. 
+            Navigation bars are placed at the top of every page and collapsing down for mobile veiw.
+    * Full Width Callout
+        * Allows users to understand the page's purpose in the first look. Also attracts users by giving on-point bite-size information. 
+            Allow business to acommplish the main goal by providing users with the booking and viewing the menu posibility. 
+            This is only showed on 80% of the screen height, the remaining 20% are left visible on purpose to let users know 
+            there is more content and to invite them to scroll through it.
+    * Book a table Modal Form
+        * Allows users to book a table by having them fill out the provided form.
+    * Discover the menu button
+        * Allows user to see the main menu the restaurant offers to make a decision.
+    * About section
+        * Gives the user a small history of when the restaurant started and how it formed.
+    * Gallery section
+        * Images are placed in Carousel for users to scroll through them with back and forward buttons.
+    * Review section
+        * Gives users an oppurtuniity to read reviews about the restaurant and also having a button to submit thier own feedback.
+## Menu Pages
+    * Buttons for Menus
+        * Placed three button for menus for accessibility, so the user wont have to go back up to the Navigation link always.
+    * Menu Items
+        * Menu items are placed in 2 rows with 3 to 2 food items in each row to keep the menu simple and exicitng.
+## Offers Page
+    * Offers page created seperately to make the user aware of any offers currenlty going on.
+    * Currently split into 2 different sections to show the offers going on at the moment.
+## Contact Page
+    * About Location
+        * Gives the user a breif description about the location of the restaurant.
+    * Contact Form
+        * User is given a form to fill in if they would like to contact us with anything such as like any questions.
+    * Location
+        * User is given a map via Google Maps, in case if they need directions to the restaurant.
 # Technologies Used
 * Workspaces
     * [Windows 10](https://www.microsoft.com/en-gb/software-download/windows10) is used as operating system.
@@ -110,7 +145,21 @@ Fork & Knife is an educational project to serve as a a milestone project for the
     * [Chrome Lighthouse Testing](https://developers.google.com/web/tools/lighthouse) as a tool to test the performance of the weboage.
     * [W3C Markup](https://validator.w3.org/) as tool to check for errors in HTML code.
     * [W3C CSS](https://jigsaw.w3.org/css-validator/) as a tool to check for errors in CCS Code.
+    * [Google Maps](https://www.google.co.uk/maps/) used as a tool to give directions to the user.
 # Testing
+    * Testing User Stories
+        * To be able to navigate through the website comfortably and easily.
+            * As soon as the user is landed on the page they are met with Nav bar on the top with links to differ pages.
+            * User is also met with button which takes them right to a specific page rather thank going to nav links for accessibility.
+        * To be able to see through mobile first and pass it to my peers.
+            * The project is build in a mobile-first manner which means that every piece of information is design to be easily displayed on 
+              mobile first and expanded on a bigger screen whitout changing the functionality.
+        * To easily understand the purpose of the page.
+            * As the user lands on the website, the first thing it shows up is a big heading which briefly describe the websites purpose.
+        * To be able to find who owns the Buisness and how to contact them, This will give me more confidence to book a table and also the restaurant.
+            * Users are given forms on relevant pages with either buttons or forms to be able to contact the buisness.
+        * To be able to view some photos of popular dishes.
+            * Users will be met with gallery page to show the images of popular dishes along with other images for the restaurant.    
 # Deployment
 # Credits
 * Contents
