@@ -84,8 +84,8 @@ Fork & Knife is an educational project to serve as a a milestone project for the
     * Icongraphy
         * Icons are used throughout the project to help user understand more efficiently the meaning of the content. They are a very good asset to improve UX.
 # Features
-* Website's features are presented in an importance order.
-## Index Page
+Website's features are presented in an importance order.
+* Index Page
     * Navigation Bar
         * Allows users to navigate through the page. Website is split into 6 pages and all navigation links are at the top of the page. 
             Navigation bars are placed at the top of every page and collapsing down for mobile veiw.
@@ -104,22 +104,22 @@ Fork & Knife is an educational project to serve as a a milestone project for the
         * Images are placed in Carousel for users to scroll through them with back and forward buttons.
     * Review section
         * Gives users an oppurtuniity to read reviews about the restaurant and also having a button to submit thier own feedback.
-## Menu Pages
+* Menu Pages
     * Buttons for Menus
         * Placed three button for menus for accessibility, so the user wont have to go back up to the Navigation link always.
     * Menu Items
         * Menu items are placed in 2 rows with 3 to 2 food items in each row to keep the menu simple and exicitng.
-## Offers Page
+* Offers Page
     * Offers page created seperately to make the user aware of any offers currenlty going on.
     * Currently split into 2 different sections to show the offers going on at the moment.
-## Contact Page
+* Contact Page
     * About Location
         * Gives the user a breif description about the location of the restaurant.
     * Contact Form
         * User is given a form to fill in if they would like to contact us with anything such as like any questions.
     * Location
         * User is given a map via Google Maps, in case if they need directions to the restaurant.
-# Technologies Used
+# TechnologiesUsed
 * Workspaces
     * [Windows 10](https://www.microsoft.com/en-gb/software-download/windows10) is used as operating system.
     * [Gitpod](https://www.gitpod.io/) is used as integrated development enviornment.
