@@ -2,11 +2,19 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
 
+/*-----------------------------------Declaring CCS Variables---------------------------*/
+
+:root {
+    --white: #f7fff7;
+    --black: black;
+    --red: #c33149
+}
+
 body {
     margin: 0;
     padding: 0;
     font-family: "PT Serif",sans-serif;
-    background-color: black;
+    background-color: var(--black);
 }
 
 /*-----------------------------------navbar----------------------------*/
@@ -28,7 +36,7 @@ body {
 }
 
 .navbar .navbar-items a:hover {
-    color: #c33149;
+    color: var(--red);
 }
 
 .collapse .navbar-nav .nav-item a {
@@ -39,7 +47,7 @@ body {
 }
 
 .collapse .navbar-nav .nav-item a:hover {
-    color: #c33149;
+    color: var(--red);
 }
 
 /*-----------------------------------/navbar hover----------------------------*/
@@ -56,28 +64,28 @@ body {
 }
 
 .dropdown-menu {
-    background-color: black;
+    background-color: var(--black);
 }
 
 .dropdown-item {
-    color: white;
+    color: var(--white)
 }
+
 /*-----------------------------------/navbar----------------------------*/
+
 /*-----------------------------------Index Section----------------------------*/
+
 .callout-container {
     margin-bottom: 20px;
-    
     height: 50vh;
     background: url(../images/heroimage.jpg) no-repeat center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
     animation-name: hero-zoom;
     animation-duration: 4s;
     animation-fill-mode: forwards;
@@ -86,7 +94,7 @@ body {
 .about-container {
     margin-top: 20px;
     margin-bottom: 20px;
-    color: #f7fff7;
+    color: var(--white);
 }
 
 .about p {
@@ -103,35 +111,35 @@ body {
 .gallery-container {
    margin-top: 20px;
    margin-bottom: 20px;
-   color: white;
+   color: var(--white);
 }
 
 .carousel-item {
     height: 20rem;
-    background-color: black;
+    background-color: var(--black);
 }
 
 .carousel-control-prev-icon {
-    background-color: black;
+    background-color: var(--black);
 }
 
 .carousel-control-next-icon {
-    background-color: black;
+    background-color: var(--black);
 }
 
 .container-wrapper-about {
-    background-color: #c33149;
+    background-color: var(--red);
     margin-top: 50px;
 }
 
 .container-wrapper {
-    background-color: #c33149;
+    background-color: var(--red);
 }
 
 .reviews-container {
     margin-top: 20px;
     margin-bottom: 20px;
-    color: #f7fff7;
+    color: var(--red);
     
 }
 
@@ -151,77 +159,71 @@ body {
 .callout-button {
     margin-bottom: 10px;
 }
+
 /*-----------------------------------/Index Section----------------------------*/
+
 /*-----------------------------------Menus----------------------------*/
 .callout-container-alacarte {
     margin-bottom: 20px;
-    
     height: 50vh;
     background: url(../images/alacartecontainer.jpg) no-repeat center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
     animation-name: hero-zoom;
     animation-duration: 4s;
     animation-fill-mode: forwards;
 }
 
 .callout-container-lunch {
-    margin-bottom: 20px;
-    
+    margin-bottom: 20px; 
     height: 50vh;
     background: url(../images/lunchcontainer.jpg) no-repeat right fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
     animation-name: hero-zoom;
     animation-duration: 4s;
     animation-fill-mode: forwards;
 }
 
 .callout-container-pretheatre {
-    margin-bottom: 20px;
-    
+    margin-bottom: 20px;  
     height: 50vh;
     background: url(../images/pretheatrecontainer.jpg) no-repeat center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
     animation-name: hero-zoom;
     animation-duration: 4s;
     animation-fill-mode: forwards;
 }
+
 .menu-container {
     margin-top: 20px;
     margin-bottom: 20px;
-    color: white;
-    background-color: #c33149;
+    color: var(--white);
+    background-color: var(--red);
 }
 
 .starter {
-    color: white;
+    color: var(--white);
 }
 
 .deserts {
-    color: white;
+    color: var(--white);
     margin-bottom: 40px;
 }
 
@@ -263,22 +265,21 @@ body {
     align-items: center;
     justify-content: center;
 }
+
 /*-----------------------------------/Menus----------------------------*/
+
 /*-----------------------------------Offers----------------------------*/
 .callout-container-offers {
     margin-bottom: 20px;
-    
     height: 50vh;
     background: url(../images/offerscontainer.jpg) no-repeat center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
     animation-name: hero-zoom;
     animation-duration: 4s;
     animation-fill-mode: forwards;
@@ -286,7 +287,7 @@ body {
 
 .lunch-offer-container {
     margin-top: 20px;
-    color: white;
+    color: var(--white);
     justify-content: center;
     justify-items: center;
 }
@@ -294,13 +295,13 @@ body {
 .lunch-offer-image {
     width: 80%;
     height: 80%;
-    background-color: black;
+    background-color: var(--black);
     padding-left: 50px;
     margin-top: 5px;
 }
 
 .img-thumbnail {
-    background-color: black;
+    background-color: var(--black);
 }
 
 .lunch-offer {
@@ -316,22 +317,22 @@ body {
 .pretheatre-offer-container {
     margin-top: 20px;
     margin-bottom: 20px;
-    color: white;
+    color: var(--white);
     justify-content: center;
     justify-items: center;
-    background-color: #c33149;
+    background-color: var(--red);
 }
 
 .pretheatre-offer-image {
     width: 80%;
     height: 80%;
-    background-color: #c33149;
+    background-color: var(--red);
     padding-left: 50px;
     margin-top: 5px;
 }
 
 .img-thumbnail {
-    background-color: black;
+    background-color: var(--black);
 }
 
 .pretheatre-offer {
@@ -347,22 +348,21 @@ body {
 .btn-bottom {
     margin-bottom: 50px;
 }
+
 /*-----------------------------------/Offers----------------------------*/
+
 /*-----------------------------------Contact---------------------------*/
 .callout-container-contact {
     margin-bottom: 20px;
-    
     height: 50vh;
     background: url(../images/contactcontainer.jpg) no-repeat center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
     animation-name: hero-zoom;
     animation-duration: 4s;
     animation-fill-mode: forwards;
@@ -371,7 +371,7 @@ body {
 .location-container {
     margin-top: 20px;
     margin-bottom: 20px;
-    color: #f7fff7;
+    color: var(--white);
 }
 
 .map-wrapper {
@@ -393,7 +393,7 @@ body {
 }
 
 .form-container label {
-   color: white;
+   color: var(--white);
    
 }
 
@@ -401,12 +401,14 @@ body {
     font-weight: bold;
     margin-top: 20px;
 }
+
 /*-----------------------------------/Contact----------------------------*/
+
 /*-----------------------------------Footer----------------------------*/
 .footer-container {
     margin-top: 20px;
     margin-bottom: 20px;
-    color: white;
+    color: var(--white);
 }
 
 .footer {
@@ -437,17 +439,20 @@ body {
     font-size: 25px;
     line-height: 7px;
     text-align: center;
-    color: #fafafa;
+    color: var(--white);
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
 }
 /*-----------------------------------Hover----------------------------*/
+
 .footer-links li a i:hover {
-    color: #c33149;
+    color: var(--red);
 }
+
 /*-----------------------------------/Footer----------------------------*/
+
 /*-----------------------------------Alert----------------------------*/
 .alert-container .col-12 {
     padding-left: 0;
@@ -459,11 +464,13 @@ body {
 }
 
 .alert-warning {
-    color: white;
-    background-color: #c33149;
+    color: var(--white);
+    background-color: var(--red);
     text-align: center;
 }
+
 /*-----------------------------------/Alert----------------------------*/
+
 /*-----------------------------------Animation----------------------------*/
 @keyframes hero-zoom {
   
@@ -477,18 +484,20 @@ body {
 
 }
 /*-----------------------------------/Animation----------------------------*/
+
 /*-----------------------------------Speacial Headings----------------------------*/
+
 .page-header {
     margin-top: 20px;
     margin-bottom: 20px;
     font-weight: bold;
     font-size: 35px;
-    color: white;
+    color: var(--white);
     letter-spacing: 2px;
 }
 
 .menu-header {
-    color: white;
+    color: var(--white);
     font-weight: bold;
     text-align: center;
     padding-right: 10px;
@@ -498,7 +507,7 @@ body {
     margin-top: 20px;
     margin-bottom: 10px;
     font-weight: bold;
-    color: white;
+    color: var(--white);
     letter-spacing: 2px;
     font-size: 15px;
 }
@@ -507,11 +516,13 @@ body {
     margin-top: 20px;
     margin-bottom: 10px;
     font-weight: bold;
-    color: white;
+    color: var(--white);
     letter-spacing: 2px;
     font-size: 20px;
 }
+
 /*-----------------------------------/Speacial Headings----------------------------*/
+
 /*-----------------------------------Media Queries----------------------------*/
 @media(min-width: 320px) {
     .btn-email {
@@ -523,12 +534,12 @@ body {
     margin-bottom: 15px;
     font-weight: bold;
     font-size: 20px;
-    color: white;
+    color: var(--white);
     letter-spacing: 2px;
     }
 
     .jumboton-callout-header {
-    color: white;
+    color: var(--white);
     font-weight: bold;
     font-size: 20px;
     margin-bottom: 30px;
@@ -537,7 +548,7 @@ body {
     }
 
     .contact-jumbotron {
-    color: white;
+    color: var(--white);
     font-weight: bold;
     font-size: 30px;
     margin-bottom: 30px;
@@ -548,7 +559,7 @@ body {
     }
 
     .jumbotron-offers {
-    color: white;
+    color: var(--white);
     font-weight: bold;
     font-size: 30px;
     margin-bottom: 30px;
@@ -571,15 +582,17 @@ body {
     font-size: 18px;
     letter-spacing: 2px;
     font-weight: bold;
+    color: var(--white);
     }
 
     .reviews p {
-        font-size: 12px;
-        letter-spacing: 2px;
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: var(--white);
     }
 
     .menu-jumbotron {
-    color: white;
+    color: var(--white);
     font-weight: bold;
     font-size: 30px;
     margin-bottom: 30px;
@@ -618,12 +631,12 @@ body {
     margin-bottom: 20px;
     font-weight: bold;
     font-size: 30px;
-    color: white;
+    color: var(--white);
     letter-spacing: 2px;
     }
 
     .jumboton-callout-header {
-    color: white;
+    color: var(--white);
     font-weight: bold;
     margin-bottom: 30px;
     letter-spacing: 2px;
@@ -632,7 +645,7 @@ body {
     }
 
     .contact-jumbotron {
-    color: white;
+    color: var(--white);
     font-weight: bold;
     font-size: 50px;
     margin-bottom: 30px;
@@ -643,7 +656,7 @@ body {
     }
 
     .jumbotron-offers {
-    color: white;
+    color: var(--white);
     font-weight: bold;
     font-size: 50px;
     margin-bottom: 30px;
@@ -663,15 +676,17 @@ body {
     font-size: 20px;
     letter-spacing: 2px;
     font-weight: bold;
+    color: var(--white);
     }
 
     .reviews p {
         font-size: 15px;
         letter-spacing: 1px;
+        color: var(--white);
     }
 
     .menu-jumbotron {
-    color: white;
+    color: var(--white);
     font-weight: bold;
     font-size: 40px;
     margin-bottom: 30px;
@@ -701,7 +716,7 @@ body {
     }
 
     .jumboton-callout-header {
-    color: white;
+    color: var(--white);
     font-weight: bold;
     font-size: 40px;
     margin-bottom: 30px;
