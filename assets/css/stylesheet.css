@@ -18,6 +18,8 @@ body {
     margin-bottom: 15px;
 }
 
+/*-----------------------------------navbar hover----------------------------*/
+
 .navbar .navabar-items a {
     transition: all 0.90s ease-in-out;
     -moz-transition: all 0.90s ease-in-out;
@@ -39,6 +41,8 @@ body {
 .collapse .navbar-nav .nav-item a:hover {
     color: #c33149;
 }
+
+/*-----------------------------------/navbar hover----------------------------*/
 
 .navbar-nav .nav-item {
     margin-right: 5px;
@@ -86,9 +90,10 @@ body {
 }
 
 .about p {
-    text-align: justify;
+    text-align: left;
     margin-bottom: 25px;
     font-size: 16px;
+    letter-spacing: 1px;
 }
 
 .gallery {
@@ -481,11 +486,30 @@ body {
     color: white;
     letter-spacing: 2px;
 }
+
 .menu-header {
     color: white;
     font-weight: bold;
     text-align: center;
     padding-right: 10px;
+}
+
+.about-menu-header {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+
+.pretheatre-menu-header {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 20px;
 }
 /*-----------------------------------/Speacial Headings----------------------------*/
 /*-----------------------------------Media Queries----------------------------*/
@@ -551,6 +575,7 @@ body {
 
     .reviews p {
         font-size: 12px;
+        letter-spacing: 2px;
     }
 
     .menu-jumbotron {
@@ -642,6 +667,7 @@ body {
 
     .reviews p {
         font-size: 15px;
+        letter-spacing: 1px;
     }
 
     .menu-jumbotron {
