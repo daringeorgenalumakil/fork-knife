@@ -150,6 +150,29 @@ Website's features are presented in an importance order.
 # Testing
 * [Click here to see the whole testing process](https://github.com/shadowy-year2020/fork-knife/blob/main/TEST.md)   
 # Deployment
+* ## GitHub Pages
+    * The project was deployed to GitHub Pages using the following steps:
+        1. Log in to GitHub and locate the [Fork & Knife Repository](https://github.com/shadowy-year2020/fork-knife).
+        2. At the top of the Repository, locate and click the "**Settings**" Button on the menu.
+        3. Scroll down the Settings page until you locate the "**GitHub Pages**" Section.
+        4. Under "**Source**", click the dropdown called "**None**" and select "**main**" branch.
+        5. The page will automatically refresh.
+        6. Scroll back down through the page to locate the now published [site link](https://shadowy-year2020.github.io/fork-knife/index.html) in the "**GitHub Pages**" section.
+* ## Forking the GitHub Repository
+    * By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps:
+        1. Log in to GitHub and locate the [Fork & Knife Repository](https://github.com/shadowy-year2020/fork-knife).
+        2. At the top right of the Repository just above the "**Settings**" Button on the menu, locate and click the "**Fork**" Button.
+        3. You should now have a copy of the original repository in your GitHub account.
+* ## Making a Local Clone
+    * The project can be cloned from GitHub pages using the following steps:
+        1. Log in to GitHub and locate the [Fork & Knife Repository](https://github.com/shadowy-year2020/fork-knife).
+        2. At the top of the Repository just above the list of files, locate and click the "**Code**" with a litte download icon beside "**Green Gitpod**" icon.
+        3. To clone the repository using HTTPS, under "Clone" and click on small "**clipboard**" icon to copy the link.
+        4. Open [Gitpod](https://www.gitpod.io/) and log in.
+        5. Type "**git clone**", and then paste the URL as shown below:
+            * ![Git Clone](/assets/images/gitcloneline.png)
+        6. Press Enter. Your local clone will be created as shown below:
+            * ![Git Clone](/assets/images/gitclonefull.png)
 # Credits
 * Contents
     * [Dakhin Restaurant](https://dakhin.com/) as a general content insparation.
