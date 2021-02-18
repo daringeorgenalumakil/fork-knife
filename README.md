@@ -21,8 +21,9 @@ Fork & Knife is an educational project to serve as a a milestone project for the
 * [Credits](#Credits)
 * [Acknowledgement](#Acknowledgement)
 # Demo
-* [Live Website](https://shadowy-year2020.github.io/fork-knife/index.html)
-* ![Demo](/assets/images/amiresponsive.png)
+* ## [Live Website](https://shadowy-year2020.github.io/fork-knife/index.html)
+* [Am I Responsive](http://ami.responsivedesign.is/?url=https://shadowy-year2020.github.io/fork-knife/index.html)
+* ![Demo](/assets/images/amiresponsivemockup.png)
 # UX
 * ## BuisnessGoals
     * The main goal of any restaurant is to attaract customers by their unique style of cuisine.

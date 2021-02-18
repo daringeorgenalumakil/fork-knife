@@ -57,16 +57,16 @@
 # TestingPerformance
 * Performance Testing was done by using the Chrome Developer tool called [Lighthouse](https://developers.google.com/web/tools/lighthouse). Used this application for testing the performance of every page. Here are the results:
     * ## Index page
-        * ![Error](/assets/images/landingpageperformance.png)
+        * ![Performane Index](/assets/images/landingpageperformance.png)
         * Performance did vary on this page due to the heavy use of images especially images in the carousel for gallery. Overall the performance was satifying.
     * ## Menu pages
-        * ![Error](/assets/images/menupageperformance.png)
+        * ![Performance Menu](/assets/images/menupageperformance.png)
         * Performance on this page were extremely good as these pages only had one image in them.
     * ## Offers page
-        * ![Error](/assets/images/offerspageperformance.png)
+        * ![Performance Offers](/assets/images/offerspageperformance.png)
         * Performance on this page was acceptable, just had slight issue with painting the page as the offers are serperated into 2 different sections. Other than that the performance was acceptable.
     * ## Contact page
-        * ![Error](/assets/images/contactpageperformance.png)
+        * ![Performance Contact](/assets/images/contactpageperformance.png)
         * Performance on this page were extremely good as these pages only had one image in them and a map to give directions for the User.
 # CodeValidation
 * HTML
