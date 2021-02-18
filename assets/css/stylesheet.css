@@ -64,7 +64,7 @@ body {
     margin-bottom: 20px;
     
     height: 50vh;
-    background: url(../images/heroimage.jpg) no-repeat fixed; 
+    background: url(../images/heroimage.jpg) no-repeat center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -264,7 +264,7 @@ body {
     margin-bottom: 20px;
     
     height: 50vh;
-    background: url(../images/offerscontainer.jpg) no-repeat fixed; 
+    background: url(../images/offerscontainer.jpg) no-repeat center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -348,7 +348,7 @@ body {
     margin-bottom: 20px;
     
     height: 50vh;
-    background: url(../images/contactcontainer.jpg) no-repeat fixed; 
+    background: url(../images/contactcontainer.jpg) no-repeat center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -438,7 +438,7 @@ body {
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
 }
-
+/*-----------------------------------Hover----------------------------*/
 .footer-links li a i:hover {
     color: #c33149;
 }
@@ -660,7 +660,7 @@ body {
     }
 
     .map {
-    width: 40rem;
+    width: 45rem;
     height: 250px;
     display: flex;
     align-items: center;
@@ -681,14 +681,6 @@ body {
     margin-bottom: 30px;
     letter-spacing: 2px;
     font-family: "Playfair Display", sans-serif;
-    }
-
-    .map {
-    width: 90rem;
-    height: 250px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     }
 }
 /*-----------------------------------/Media Queries----------------------------*/
