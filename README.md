@@ -143,10 +143,12 @@ Website's features are presented in an importance order.
 * Other
     * [Coolors.co](https://coolors.co/) as tool tool to Color Palette picking.
     * [Chrome Lighthouse Testing](https://developers.google.com/web/tools/lighthouse) as a tool to test the performance of the weboage.
+    * [Browser Ling](https://www.browserling.com/) used to test responsivness in Windows 7 and Android 7.
     * [W3C Markup](https://validator.w3.org/) as tool to check for errors in HTML code.
     * [W3C CSS](https://jigsaw.w3.org/css-validator/) as a tool to check for errors in CCS Code.
     * [Google Maps](https://www.google.co.uk/maps/) used as a tool to give directions to the user.
-# Testing   
+# Testing
+* [Click here to see the whole testing process](https://github.com/shadowy-year2020/fork-knife/blob/main/TEST.md)   
 # Deployment
 # Credits
 * Contents
