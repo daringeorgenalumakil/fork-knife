@@ -723,5 +723,16 @@ body {
     letter-spacing: 2px;
     font-family: "Playfair Display", sans-serif;
     }
+
+    .navbar-brand {
+        font-weight: bold;
+        margin-left: 15%;
+        letter-spacing: 4px;
+        font-size: 30px;
+        }
+
+    #navbarmenu {
+        margin-right: 10%;
+    }
 }
 /*-----------------------------------/Media Queries----------------------------*/
